@@ -1,0 +1,16 @@
+2021-06-07 14:05:52.4429 INFO Here is info message from the controller.
+2021-06-07 14:05:52.4776 DEBUG Here is debug message from the controller.
+2021-06-07 14:05:52.4776 WARN Here is warn message from the controller.
+2021-06-07 14:05:52.4776 ERROR Here is error message from the controller.
+2021-06-07 14:06:45.0020 INFO Here is info message from the controller.
+2021-06-07 14:06:45.0262 DEBUG Here is debug message from the controller.
+2021-06-07 14:06:45.0296 WARN Here is warn message from the controller.
+2021-06-07 14:06:45.0296 ERROR Here is error message from the controller.
+2021-06-07 14:19:42.2650 INFO Here is info message from the controller.
+2021-06-07 14:19:42.3361 DEBUG Here is debug message from the controller.
+2021-06-07 14:19:42.3386 WARN Here is warn message from the controller.
+2021-06-07 14:19:42.3418 ERROR Here is error message from the controller.
+2021-06-07 14:22:05.0000 INFO Here is info message from the controller.
+2021-06-07 14:22:05.0258 DEBUG Here is debug message from the controller.
+2021-06-07 14:22:05.0258 WARN Here is warn message from the controller.
+2021-06-07 14:22:05.0258 ERROR Here is error message from the controller.

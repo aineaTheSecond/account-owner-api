@@ -1,0 +1,308 @@
+{
+  "format": 1,
+  "restore": {
+    "/home/ainea/Documents/work/dotnet/AccountOwnerServer/AccountOwnerServer/AccountOwnerServer.csproj": {}
+  },
+  "projects": {
+    "/home/ainea/Documents/work/dotnet/AccountOwnerServer/AccountOwnerServer/AccountOwnerServer.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/home/ainea/Documents/work/dotnet/AccountOwnerServer/AccountOwnerServer/AccountOwnerServer.csproj",
+        "projectName": "AccountOwnerServer",
+        "projectPath": "/home/ainea/Documents/work/dotnet/AccountOwnerServer/AccountOwnerServer/AccountOwnerServer.csproj",
+        "packagesPath": "/home/ainea/.nuget/packages/",
+        "outputPath": "/home/ainea/Documents/work/dotnet/AccountOwnerServer/AccountOwnerServer/obj/",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "/home/ainea/.nuget/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp3.1"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp3.1": {
+            "projectReferences": {
+              "/home/ainea/Documents/work/dotnet/AccountOwnerServer/Entities/Entities.csproj": {
+                "projectPath": "/home/ainea/Documents/work/dotnet/AccountOwnerServer/Entities/Entities.csproj"
+              },
+              "/home/ainea/Documents/work/dotnet/AccountOwnerServer/LoggerService/LoggerService.csproj": {
+                "projectPath": "/home/ainea/Documents/work/dotnet/AccountOwnerServer/LoggerService/LoggerService.csproj"
+              },
+              "/home/ainea/Documents/work/dotnet/AccountOwnerServer/Repository/Repository.csproj": {
+                "projectPath": "/home/ainea/Documents/work/dotnet/AccountOwnerServer/Repository/Repository.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp3.1": {
+          "dependencies": {
+            "NLog.Extensions.Logging": {
+              "target": "Package",
+              "version": "[1.7.2, )"
+            },
+            "Npgsql.EntityFrameworkCore.PostgreSQL": {
+              "target": "Package",
+              "version": "[5.0.6, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.AspNetCore.App": {
+              "privateAssets": "none"
+            },
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "/snap/dotnet-sdk/125/sdk/3.1.409/RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "/home/ainea/Documents/work/dotnet/AccountOwnerServer/Contracts/Contracts.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/home/ainea/Documents/work/dotnet/AccountOwnerServer/Contracts/Contracts.csproj",
+        "projectName": "Contracts",
+        "projectPath": "/home/ainea/Documents/work/dotnet/AccountOwnerServer/Contracts/Contracts.csproj",
+        "packagesPath": "/home/ainea/.nuget/packages/",
+        "outputPath": "/home/ainea/Documents/work/dotnet/AccountOwnerServer/Contracts/obj/",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "/home/ainea/.nuget/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp3.1"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp3.1": {
+            "projectReferences": {
+              "/home/ainea/Documents/work/dotnet/AccountOwnerServer/Entities/Entities.csproj": {
+                "projectPath": "/home/ainea/Documents/work/dotnet/AccountOwnerServer/Entities/Entities.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp3.1": {
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "/snap/dotnet-sdk/125/sdk/3.1.409/RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "/home/ainea/Documents/work/dotnet/AccountOwnerServer/Entities/Entities.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/home/ainea/Documents/work/dotnet/AccountOwnerServer/Entities/Entities.csproj",
+        "projectName": "Entities",
+        "projectPath": "/home/ainea/Documents/work/dotnet/AccountOwnerServer/Entities/Entities.csproj",
+        "packagesPath": "/home/ainea/.nuget/packages/",
+        "outputPath": "/home/ainea/Documents/work/dotnet/AccountOwnerServer/Entities/obj/",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "/home/ainea/.nuget/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp3.1"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp3.1": {
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp3.1": {
+          "dependencies": {
+            "Microsoft.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[5.0.6, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "/snap/dotnet-sdk/125/sdk/3.1.409/RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "/home/ainea/Documents/work/dotnet/AccountOwnerServer/LoggerService/LoggerService.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/home/ainea/Documents/work/dotnet/AccountOwnerServer/LoggerService/LoggerService.csproj",
+        "projectName": "LoggerService",
+        "projectPath": "/home/ainea/Documents/work/dotnet/AccountOwnerServer/LoggerService/LoggerService.csproj",
+        "packagesPath": "/home/ainea/.nuget/packages/",
+        "outputPath": "/home/ainea/Documents/work/dotnet/AccountOwnerServer/LoggerService/obj/",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "/home/ainea/.nuget/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp3.1"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp3.1": {
+            "projectReferences": {
+              "/home/ainea/Documents/work/dotnet/AccountOwnerServer/Contracts/Contracts.csproj": {
+                "projectPath": "/home/ainea/Documents/work/dotnet/AccountOwnerServer/Contracts/Contracts.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp3.1": {
+          "dependencies": {
+            "NLog.Extensions.Logging": {
+              "target": "Package",
+              "version": "[1.7.2, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "/snap/dotnet-sdk/125/sdk/3.1.409/RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "/home/ainea/Documents/work/dotnet/AccountOwnerServer/Repository/Repository.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/home/ainea/Documents/work/dotnet/AccountOwnerServer/Repository/Repository.csproj",
+        "projectName": "Repository",
+        "projectPath": "/home/ainea/Documents/work/dotnet/AccountOwnerServer/Repository/Repository.csproj",
+        "packagesPath": "/home/ainea/.nuget/packages/",
+        "outputPath": "/home/ainea/Documents/work/dotnet/AccountOwnerServer/Repository/obj/",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "/home/ainea/.nuget/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp3.1"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp3.1": {
+            "projectReferences": {
+              "/home/ainea/Documents/work/dotnet/AccountOwnerServer/Contracts/Contracts.csproj": {
+                "projectPath": "/home/ainea/Documents/work/dotnet/AccountOwnerServer/Contracts/Contracts.csproj"
+              },
+              "/home/ainea/Documents/work/dotnet/AccountOwnerServer/Entities/Entities.csproj": {
+                "projectPath": "/home/ainea/Documents/work/dotnet/AccountOwnerServer/Entities/Entities.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp3.1": {
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "/snap/dotnet-sdk/125/sdk/3.1.409/RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}
