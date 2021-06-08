@@ -27,6 +27,7 @@ namespace AccountOwnerServer
             services.ConfigureLoggerService();
             services.ConfigurePostgresqlClient(Configuration);
             services.ConfigureRepositoryWrapper();
+            services.AddAutoMapper(typeof(Startup));
 
             services.AddControllers();
         }

@@ -6,27 +6,26 @@ using Contracts;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.Extensions.Logging;
 
-
-namespace AccountOwnerServer.Controllers
+namespace WebApplication1.Controllers
 {
     [ApiController]
     [Route("[controller]")]
     public class WeatherForecastController : ControllerBase
     {
-        private IRepositoryWrapper _repoWrapper;
+        private IRepositoryWrapper _repository;
 
-        public WeatherForecastController(IRepositoryWrapper repoWrapper)
+        public WeatherForecastController(IRepositoryWrapper repository)
         {
-            _repoWrapper = repoWrapper;
+            _repository = repository;
         }
-        // GET api/values
+
         [HttpGet]
         public IEnumerable<string> Get()
         {
-            // var domesticAccounts = _repoWrapper.Account.FindByCondition(x => x.AccountType.Equals("Domestic"));
-            var owners = _repoWrapper.Owner.FindAll();
+            var domesticAccounts = _repository.Account.FindByCondition(x => x.AccountType.Equals("Domestic"));
+            var owners = _repository.Owner.FindAll();
 
-            return new string[] { "value1", "value2" };
+            return new string[] { "value 1 ", "Value 2 " };
         }
     }
 }

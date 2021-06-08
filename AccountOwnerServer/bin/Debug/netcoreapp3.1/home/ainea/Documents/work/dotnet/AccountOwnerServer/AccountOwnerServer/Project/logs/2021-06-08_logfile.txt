@@ -1,0 +1,35 @@
+2021-06-08 11:48:19.6993 ERROR Something went wrong inside GetAllOwners action: No password has been provided but the backend requires one (in MD5)
+2021-06-08 11:54:26.9240 ERROR Something went wrong inside GetAllOwners action: No password has been provided but the backend requires one (in MD5)
+2021-06-08 11:55:56.0191 ERROR Something went wrong inside GetAllOwners action: 28P01: password authentication failed for user "ainea"
+2021-06-08 12:03:53.5356 ERROR Something went wrong inside GetAllOwners action: 28P01: password authentication failed for user "ainea"
+2021-06-08 12:08:37.6445 ERROR Something went wrong inside GetAllOwners action: 28P01: password authentication failed for user "ainea"
+2021-06-08 12:10:32.5592 ERROR Something went wrong inside GetAllOwners action: 42P01: relation "owner" does not exist
+2021-06-08 12:14:55.7984 ERROR Something went wrong inside GetAllOwners action: 42703: column o.OwnerId does not exist
+2021-06-08 12:16:12.8872 ERROR Something went wrong inside GetAllOwners action: 42703: column o.OwnerId does not exist
+2021-06-08 12:17:24.6495 ERROR Something went wrong inside GetAllOwners action: The entity type 'Owner' requires a primary key to be defined. If you intended to use a keyless entity type, call 'HasNoKey' in 'OnModelCreating'. For more information on keyless entity types, see https://go.microsoft.com/fwlink/?linkid=2141943.
+2021-06-08 12:17:34.9165 ERROR Something went wrong inside GetAllOwners action: The entity type 'Owner' requires a primary key to be defined. If you intended to use a keyless entity type, call 'HasNoKey' in 'OnModelCreating'. For more information on keyless entity types, see https://go.microsoft.com/fwlink/?linkid=2141943.
+2021-06-08 12:40:09.7402 ERROR Something went wrong inside GetAllOwners action: 42P01: relation "owner" does not exist
+2021-06-08 12:56:41.4744 ERROR Something went wrong inside GetAllOwners action: 42P01: relation "owner" does not exist
+2021-06-08 12:57:46.2875 ERROR Something went wrong inside GetAllOwners action: 42P01: relation "owner" does not exist
+2021-06-08 12:58:48.4173 ERROR Something went wrong inside GetAllOwners action: 42703: column o.OwnerId does not exist
+2021-06-08 13:00:33.1876 ERROR Something went wrong inside GetAllOwners action: 42703: column o.OwnerId does not exist
+2021-06-08 13:04:17.3398 ERROR Something went wrong inside GetAllOwners action: 42703: column o.OwnerId does not exist
+2021-06-08 13:05:41.7601 ERROR Something went wrong inside GetAllOwners action: Can't cast database type character to Guid
+2021-06-08 13:07:46.2087 INFO Returned All Owners from the database
+2021-06-08 13:12:04.8569 ERROR Something went wrong inside GetAllOwners action: 42703: column o.owner_id does not exist
+2021-06-08 13:12:38.2158 ERROR Something went wrong inside GetAllOwners action: 42703: column o.OwnerId does not exist
+2021-06-08 13:13:43.6802 INFO Returned All Owners from the database
+2021-06-08 13:18:09.9451 INFO Returned All Owners from the database
+2021-06-08 13:20:08.3050 INFO Returned All Owners from the database
+2021-06-08 13:34:19.5053 INFO Returned All Owners from the database
+2021-06-08 13:43:25.1018 INFO Returned the owner with id: 24fd81f8-d58a-4bcc-9f35-dc6cd5641906
+2021-06-08 13:57:12.3233 ERROR Something went wrong inside GetOwnerWithDetails action: 42P01: relation "account" does not exist
+2021-06-08 14:01:01.7593 ERROR Something went wrong inside GetOwnerWithDetails action: 42P01: relation "account" does not exist
+2021-06-08 14:01:26.0597 INFO Returned the owner with id: 24fd81f8-d58a-4bcc-9f35-dc6cd5641906
+2021-06-08 14:01:44.7447 INFO Returned All Owners from the database
+2021-06-08 14:02:39.0195 ERROR Something went wrong inside GetOwnerWithDetails action: 42P01: relation "account" does not exist
+2021-06-08 14:04:28.6306 ERROR Something went wrong inside GetOwnerWithDetails action: 42703: column a.ownerid does not exist
+2021-06-08 14:04:45.9878 ERROR Something went wrong inside GetOwnerWithDetails action: 42703: column a.ownerid does not exist
+2021-06-08 14:05:30.6682 INFO Returned owner with details for id: 24fd81f8-d58a-4bcc-9f35-dc6cd5641906
+2021-06-08 14:05:42.9739 INFO Returned All Owners from the database
+2021-06-08 14:05:48.8817 INFO Returned owner with details for id: 24fd81f8-d58a-4bcc-9f35-dc6cd5641906
