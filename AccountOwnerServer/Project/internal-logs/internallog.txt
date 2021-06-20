@@ -5625,3 +5625,624 @@
 2021-06-08 14:06:56.0401 Trace Closing Layout Renderer: ${message}
 2021-06-08 14:06:56.0435 Debug Finished closing logging configuration.
 2021-06-08 14:06:56.0435 Info Logger has been shut down.
+2021-06-20 20:49:49.7246 Debug ScanAssembly('NLog, Version=4.0.0.0, Culture=neutral, PublicKeyToken=5120e14c03d0593c')
+2021-06-20 20:49:49.7824 Debug Found assembly location directory: '/home/ainea/Documents/work/dotnet/AccountOwnerServer/AccountOwnerServer/bin/Debug/netcoreapp3.1' (NLog, Version=4.0.0.0, Culture=neutral, PublicKeyToken=5120e14c03d0593c)
+2021-06-20 20:49:49.7824 Debug Auto loading based on NLog-Assembly found location: /home/ainea/Documents/work/dotnet/AccountOwnerServer/AccountOwnerServer/bin/Debug/netcoreapp3.1
+2021-06-20 20:49:49.7824 Debug Search for auto loading files in location: /home/ainea/Documents/work/dotnet/AccountOwnerServer/AccountOwnerServer/bin/Debug/netcoreapp3.1
+2021-06-20 20:49:49.7855 Debug Start auto loading, location: /home/ainea/Documents/work/dotnet/AccountOwnerServer/AccountOwnerServer/bin/Debug/netcoreapp3.1
+2021-06-20 20:49:49.7855 Info Auto loading assembly file: /home/ainea/Documents/work/dotnet/AccountOwnerServer/AccountOwnerServer/bin/Debug/netcoreapp3.1/NLog.Extensions.Logging.dll
+2021-06-20 20:49:49.7855 Info Loading assembly file: /home/ainea/Documents/work/dotnet/AccountOwnerServer/AccountOwnerServer/bin/Debug/netcoreapp3.1/NLog.Extensions.Logging.dll
+2021-06-20 20:49:49.8288 Info NLog.Extensions.Logging, Version=1.0.0.0, Culture=neutral, PublicKeyToken=5120e14c03d0593c. File version: 1.7.2.1548. Product version: 1.7.2+4bd1909dde91279dbdea4d1c38ff6a09de78f531. GlobalAssemblyCache: False
+2021-06-20 20:49:49.8288 Debug ScanAssembly('NLog.Extensions.Logging, Version=1.0.0.0, Culture=neutral, PublicKeyToken=5120e14c03d0593c')
+2021-06-20 20:49:49.8288 Info Auto loading assembly file: /home/ainea/Documents/work/dotnet/AccountOwnerServer/AccountOwnerServer/bin/Debug/netcoreapp3.1/NLog.Extensions.Logging.dll succeeded!
+2021-06-20 20:49:49.8288 Trace Assembly 'Microsoft.Extensions.Logging, Version=5.0.0.0, Culture=neutral, PublicKeyToken=adb9793829ddae60' will be hidden in callsite stacktrace
+2021-06-20 20:49:49.8288 Trace Assembly 'Microsoft.Extensions.Logging.Abstractions, Version=5.0.0.0, Culture=neutral, PublicKeyToken=adb9793829ddae60' will be hidden in callsite stacktrace
+2021-06-20 20:49:49.8288 Trace Assembly 'NLog.Extensions.Logging, Version=1.0.0.0, Culture=neutral, PublicKeyToken=5120e14c03d0593c' will be hidden in callsite stacktrace
+2021-06-20 20:49:49.8288 Debug Auto loading done
+2021-06-20 20:49:49.8288 Info Message Template Auto Format enabled
+2021-06-20 20:49:49.8451 Trace FindReachableObject<NLog.Internal.IRenderable>:
+2021-06-20 20:49:49.8451 Trace Scanning LongDateLayoutRenderer 'Layout Renderer: ${longdate}'
+2021-06-20 20:49:49.8515 Debug Setting 'NLog.LayoutRenderers.Wrappers.UppercaseLayoutRendererWrapper.uppercase' to 'true'
+2021-06-20 20:49:49.8524 Trace Wrapping NLog.LayoutRenderers.LevelLayoutRenderer with NLog.LayoutRenderers.Wrappers.UppercaseLayoutRendererWrapper
+2021-06-20 20:49:49.8524 Trace FindReachableObject<NLog.Internal.IRenderable>:
+2021-06-20 20:49:49.8524 Trace Scanning LevelLayoutRenderer 'Layout Renderer: ${level}'
+2021-06-20 20:49:49.8524 Trace FindReachableObject<NLog.Internal.IRenderable>:
+2021-06-20 20:49:49.8524 Trace Scanning UppercaseLayoutRendererWrapper 'Layout Renderer: ${uppercase}'
+2021-06-20 20:49:49.8524 Trace  Scanning Property Inner 'SimpleLayout=Layout Renderer: ${level}' NLog.Layouts
+2021-06-20 20:49:49.8524 Trace  Scanning SimpleLayout 'SimpleLayout=Layout Renderer: ${level}'
+2021-06-20 20:49:49.8524 Trace   Scanning Property Renderers 'System.Collections.ObjectModel.ReadOnlyCollection`1[NLog.LayoutRenderers.LayoutRenderer]' System.Collections.ObjectModel
+2021-06-20 20:49:49.8562 Trace   Scanning LevelLayoutRenderer 'Layout Renderer: ${level}'
+2021-06-20 20:49:49.8562 Trace FindReachableObject<NLog.Internal.IRenderable>:
+2021-06-20 20:49:49.8562 Trace Scanning LoggerNameLayoutRenderer 'Layout Renderer: ${logger}'
+2021-06-20 20:49:49.8562 Trace FindReachableObject<NLog.Internal.IRenderable>:
+2021-06-20 20:49:49.8562 Trace Scanning MessageLayoutRenderer 'Layout Renderer: ${message}'
+2021-06-20 20:49:49.8615 Debug Setting 'NLog.Targets.FileTarget.name' to 'logfile'
+2021-06-20 20:49:49.8615 Debug Setting 'NLog.Targets.FileTarget.fileName' to 'home/ainea/Documents/work/dotnet/AccountOwnerServer/AccountOwnerServer/Project/logs/${shortdate}_logfile.txt'
+2021-06-20 20:49:49.8615 Trace FindReachableObject<NLog.Internal.IRenderable>:
+2021-06-20 20:49:49.8615 Trace Scanning ShortDateLayoutRenderer 'Layout Renderer: ${shortdate}'
+2021-06-20 20:49:49.8615 Debug Setting 'NLog.Targets.FileTarget.layout' to '${longdate} ${level:uppercase=true} ${message}'
+2021-06-20 20:49:49.8615 Trace FindReachableObject<NLog.Internal.IRenderable>:
+2021-06-20 20:49:49.8615 Trace Scanning LongDateLayoutRenderer 'Layout Renderer: ${longdate}'
+2021-06-20 20:49:49.8615 Debug Setting 'NLog.LayoutRenderers.Wrappers.UppercaseLayoutRendererWrapper.uppercase' to 'true'
+2021-06-20 20:49:49.8615 Trace Wrapping NLog.LayoutRenderers.LevelLayoutRenderer with NLog.LayoutRenderers.Wrappers.UppercaseLayoutRendererWrapper
+2021-06-20 20:49:49.8615 Trace FindReachableObject<NLog.Internal.IRenderable>:
+2021-06-20 20:49:49.8615 Trace Scanning LevelLayoutRenderer 'Layout Renderer: ${level}'
+2021-06-20 20:49:49.8615 Trace FindReachableObject<NLog.Internal.IRenderable>:
+2021-06-20 20:49:49.8615 Trace Scanning UppercaseLayoutRendererWrapper 'Layout Renderer: ${uppercase}'
+2021-06-20 20:49:49.8615 Trace  Scanning Property Inner 'SimpleLayout=Layout Renderer: ${level}' NLog.Layouts
+2021-06-20 20:49:49.8615 Trace  Scanning SimpleLayout 'SimpleLayout=Layout Renderer: ${level}'
+2021-06-20 20:49:49.8615 Trace   Scanning Property Renderers 'System.Collections.ObjectModel.ReadOnlyCollection`1[NLog.LayoutRenderers.LayoutRenderer]' System.Collections.ObjectModel
+2021-06-20 20:49:49.8615 Trace   Scanning LevelLayoutRenderer 'Layout Renderer: ${level}'
+2021-06-20 20:49:49.8615 Trace FindReachableObject<NLog.Internal.IRenderable>:
+2021-06-20 20:49:49.8615 Trace Scanning MessageLayoutRenderer 'Layout Renderer: ${message}'
+2021-06-20 20:49:49.8615 Info Adding target FileTarget(Name=logfile)
+2021-06-20 20:49:49.8615 Debug Registered target logfile: NLog.Targets.FileTarget
+2021-06-20 20:49:49.8646 Trace ParseRulesElement
+2021-06-20 20:49:49.8776 Debug Watching path '/home/ainea/Documents/work/dotnet/AccountOwnerServer/AccountOwnerServer' filter 'nlog.config' for changes.
+2021-06-20 20:49:49.8776 Debug --- NLog configuration dump ---
+2021-06-20 20:49:49.8776 Debug Targets:
+2021-06-20 20:49:49.8776 Debug File Target[logfile]
+2021-06-20 20:49:49.8776 Debug Rules:
+2021-06-20 20:49:49.8803 Debug logNamePattern: (:All) levels: [ Debug Info Warn Error Fatal ] appendTo: [ logfile ]
+2021-06-20 20:49:49.8803 Debug --- End of NLog configuration dump ---
+2021-06-20 20:49:49.8803 Trace FindReachableObject<System.Object>:
+2021-06-20 20:49:49.8803 Trace Scanning LoggingRule 'logNamePattern: (:All) levels: [ Debug Info Warn Error Fatal ] appendTo: [ logfile ]'
+2021-06-20 20:49:49.8803 Trace  Scanning Property Targets 'System.Collections.Generic.List`1[NLog.Targets.Target]' System.Collections.Generic
+2021-06-20 20:49:49.8803 Trace  Scanning FileTarget 'File Target[logfile]'
+2021-06-20 20:49:49.8803 Trace   Scanning Property FileName ''home/ainea/Documents/work/dotnet/AccountOwnerServer/AccountOwnerServer/Project/logs/${shortdate}_logfile.txt'' NLog.Layouts
+2021-06-20 20:49:49.8803 Trace   Scanning SimpleLayout ''home/ainea/Documents/work/dotnet/AccountOwnerServer/AccountOwnerServer/Project/logs/${shortdate}_logfile.txt''
+2021-06-20 20:49:49.8803 Trace    Scanning Property Renderers 'System.Collections.ObjectModel.ReadOnlyCollection`1[NLog.LayoutRenderers.LayoutRenderer]' System.Collections.ObjectModel
+2021-06-20 20:49:49.8803 Trace    Scanning LiteralLayoutRenderer 'Layout Renderer: ${literal}'
+2021-06-20 20:49:49.8803 Trace    Scanning ShortDateLayoutRenderer 'Layout Renderer: ${shortdate}'
+2021-06-20 20:49:49.8803 Trace    Scanning LiteralLayoutRenderer 'Layout Renderer: ${literal}'
+2021-06-20 20:49:49.8803 Trace   Scanning Property Layout ''${longdate} ${level:uppercase=true} ${message}'' NLog.Layouts
+2021-06-20 20:49:49.8803 Trace   Scanning SimpleLayout ''${longdate} ${level:uppercase=true} ${message}''
+2021-06-20 20:49:49.8842 Trace    Scanning Property Renderers 'System.Collections.ObjectModel.ReadOnlyCollection`1[NLog.LayoutRenderers.LayoutRenderer]' System.Collections.ObjectModel
+2021-06-20 20:49:49.8842 Trace    Scanning LongDateLayoutRenderer 'Layout Renderer: ${longdate}'
+2021-06-20 20:49:49.8842 Trace    Scanning LiteralLayoutRenderer 'Layout Renderer: ${literal}'
+2021-06-20 20:49:49.8842 Trace    Scanning UppercaseLayoutRendererWrapper 'Layout Renderer: ${uppercase}'
+2021-06-20 20:49:49.8842 Trace     Scanning Property Inner 'SimpleLayout=Layout Renderer: ${level}' NLog.Layouts
+2021-06-20 20:49:49.8842 Trace     Scanning SimpleLayout 'SimpleLayout=Layout Renderer: ${level}'
+2021-06-20 20:49:49.8842 Trace      Scanning Property Renderers 'System.Collections.ObjectModel.ReadOnlyCollection`1[NLog.LayoutRenderers.LayoutRenderer]' System.Collections.ObjectModel
+2021-06-20 20:49:49.8842 Trace      Scanning LevelLayoutRenderer 'Layout Renderer: ${level}'
+2021-06-20 20:49:49.8842 Trace    Scanning LiteralLayoutRenderer 'Layout Renderer: ${literal}'
+2021-06-20 20:49:49.8842 Trace    Scanning MessageLayoutRenderer 'Layout Renderer: ${message}'
+2021-06-20 20:49:49.8842 Trace   Scanning Property LineEnding 'Default' NLog.Targets
+2021-06-20 20:49:49.8842 Trace  Scanning Property ChildRules 'System.Collections.Generic.List`1[NLog.Config.LoggingRule]' System.Collections.Generic
+2021-06-20 20:49:49.8842 Trace  Scanning Property Filters 'System.Collections.Generic.List`1[NLog.Filters.Filter]' System.Collections.Generic
+2021-06-20 20:49:49.8842 Info Validating config: TargetNames=logfile, ConfigItems=14, FilePath=/home/ainea/Documents/work/dotnet/AccountOwnerServer/AccountOwnerServer/nlog.config
+2021-06-20 20:49:49.8842 Debug Unused target checking is started... Rule Count: 1, Target Count: 1
+2021-06-20 20:49:49.8920 Debug Unused target checking is completed. Total Rule Count: 1, Total Target Count: 1, Unused Target Count: 0
+2021-06-20 20:49:49.8923 Trace Initializing Layout Renderer: ${message}
+2021-06-20 20:49:49.8923 Trace Initializing Layout Renderer: ${literal}
+2021-06-20 20:49:49.8923 Trace Initializing Layout Renderer: ${level}
+2021-06-20 20:49:49.8923 Trace Initializing SimpleLayout=Layout Renderer: ${level}
+2021-06-20 20:49:49.8923 Trace FindReachableObject<NLog.Internal.IRenderable>:
+2021-06-20 20:49:49.8923 Trace Scanning SimpleLayout 'SimpleLayout=Layout Renderer: ${level}'
+2021-06-20 20:49:49.8923 Trace  Scanning Property Renderers 'System.Collections.ObjectModel.ReadOnlyCollection`1[NLog.LayoutRenderers.LayoutRenderer]' System.Collections.ObjectModel
+2021-06-20 20:49:49.8923 Trace  Scanning LevelLayoutRenderer 'Layout Renderer: ${level}'
+2021-06-20 20:49:49.8976 Trace Initializing Layout Renderer: ${uppercase}
+2021-06-20 20:49:49.8976 Trace Initializing Layout Renderer: ${literal}
+2021-06-20 20:49:49.8976 Trace Initializing Layout Renderer: ${longdate}
+2021-06-20 20:49:49.8976 Trace Initializing '${longdate} ${level:uppercase=true} ${message}'
+2021-06-20 20:49:49.8976 Trace FindReachableObject<NLog.Internal.IRenderable>:
+2021-06-20 20:49:49.8976 Trace Scanning SimpleLayout ''${longdate} ${level:uppercase=true} ${message}''
+2021-06-20 20:49:49.8976 Trace  Scanning Property Renderers 'System.Collections.ObjectModel.ReadOnlyCollection`1[NLog.LayoutRenderers.LayoutRenderer]' System.Collections.ObjectModel
+2021-06-20 20:49:49.8976 Trace  Scanning LongDateLayoutRenderer 'Layout Renderer: ${longdate}'
+2021-06-20 20:49:49.8976 Trace  Scanning LiteralLayoutRenderer 'Layout Renderer: ${literal}'
+2021-06-20 20:49:49.8976 Trace  Scanning UppercaseLayoutRendererWrapper 'Layout Renderer: ${uppercase}'
+2021-06-20 20:49:49.8976 Trace   Scanning Property Inner 'SimpleLayout=Layout Renderer: ${level}' NLog.Layouts
+2021-06-20 20:49:49.8976 Trace   Scanning SimpleLayout 'SimpleLayout=Layout Renderer: ${level}'
+2021-06-20 20:49:49.8976 Trace    Scanning Property Renderers 'System.Collections.ObjectModel.ReadOnlyCollection`1[NLog.LayoutRenderers.LayoutRenderer]' System.Collections.ObjectModel
+2021-06-20 20:49:49.8976 Trace    Scanning LevelLayoutRenderer 'Layout Renderer: ${level}'
+2021-06-20 20:49:49.8976 Trace  Scanning LiteralLayoutRenderer 'Layout Renderer: ${literal}'
+2021-06-20 20:49:49.8976 Trace  Scanning MessageLayoutRenderer 'Layout Renderer: ${message}'
+2021-06-20 20:49:49.8976 Trace Initializing Layout Renderer: ${literal}
+2021-06-20 20:49:49.8976 Trace Initializing Layout Renderer: ${shortdate}
+2021-06-20 20:49:49.8976 Trace Initializing Layout Renderer: ${literal}
+2021-06-20 20:49:49.8976 Trace Initializing 'home/ainea/Documents/work/dotnet/AccountOwnerServer/AccountOwnerServer/Project/logs/${shortdate}_logfile.txt'
+2021-06-20 20:49:49.8976 Trace FindReachableObject<NLog.Internal.IRenderable>:
+2021-06-20 20:49:49.8976 Trace Scanning SimpleLayout ''home/ainea/Documents/work/dotnet/AccountOwnerServer/AccountOwnerServer/Project/logs/${shortdate}_logfile.txt''
+2021-06-20 20:49:49.8976 Trace  Scanning Property Renderers 'System.Collections.ObjectModel.ReadOnlyCollection`1[NLog.LayoutRenderers.LayoutRenderer]' System.Collections.ObjectModel
+2021-06-20 20:49:49.8976 Trace  Scanning LiteralLayoutRenderer 'Layout Renderer: ${literal}'
+2021-06-20 20:49:49.8976 Trace  Scanning ShortDateLayoutRenderer 'Layout Renderer: ${shortdate}'
+2021-06-20 20:49:49.8976 Trace  Scanning LiteralLayoutRenderer 'Layout Renderer: ${literal}'
+2021-06-20 20:49:49.8976 Trace Initializing File Target[logfile]
+2021-06-20 20:49:49.9004 Trace FindReachableObject<NLog.Layouts.Layout>:
+2021-06-20 20:49:49.9004 Trace Scanning FileTarget 'File Target[logfile]'
+2021-06-20 20:49:49.9004 Trace  Scanning Property FileName ''home/ainea/Documents/work/dotnet/AccountOwnerServer/AccountOwnerServer/Project/logs/${shortdate}_logfile.txt'' NLog.Layouts
+2021-06-20 20:49:49.9004 Trace  Scanning SimpleLayout ''home/ainea/Documents/work/dotnet/AccountOwnerServer/AccountOwnerServer/Project/logs/${shortdate}_logfile.txt''
+2021-06-20 20:49:49.9004 Trace  Scanning Property Layout ''${longdate} ${level:uppercase=true} ${message}'' NLog.Layouts
+2021-06-20 20:49:49.9004 Trace  Scanning SimpleLayout ''${longdate} ${level:uppercase=true} ${message}''
+2021-06-20 20:49:49.9004 Trace  Scanning Property LineEnding 'Default' NLog.Targets
+2021-06-20 20:49:49.9004 Trace File Target[logfile] has 2 layouts
+2021-06-20 20:49:49.9004 Trace FileTarget(Name=logfile): Using appenderFactory: NLog.Internal.FileAppenders.RetryingMultiProcessFileAppender+Factory
+2021-06-20 21:21:19.7006 Debug Targets for LoggerService.LoggerManager by level:
+2021-06-20 21:21:19.7201 Debug Trace =>
+2021-06-20 21:21:19.7202 Debug Debug => logfile
+2021-06-20 21:21:19.7202 Debug Info => logfile
+2021-06-20 21:21:19.7202 Debug Warn => logfile
+2021-06-20 21:21:19.7202 Debug Error => logfile
+2021-06-20 21:21:19.7202 Debug Fatal => logfile
+2021-06-20 21:21:19.7371 Debug FileTarget(Name=logfile): Preparing for new file '/home/ainea/Documents/work/dotnet/AccountOwnerServer/AccountOwnerServer/bin/Debug/netcoreapp3.1/home/ainea/Documents/work/dotnet/AccountOwnerServer/AccountOwnerServer/Project/logs/2021-06-20_logfile.txt'
+2021-06-20 21:21:19.7423 Debug Creating file appender: /home/ainea/Documents/work/dotnet/AccountOwnerServer/AccountOwnerServer/bin/Debug/netcoreapp3.1/home/ainea/Documents/work/dotnet/AccountOwnerServer/AccountOwnerServer/Project/logs/2021-06-20_logfile.txt
+2021-06-20 21:21:19.7423 Trace Opening /home/ainea/Documents/work/dotnet/AccountOwnerServer/AccountOwnerServer/bin/Debug/netcoreapp3.1/home/ainea/Documents/work/dotnet/AccountOwnerServer/AccountOwnerServer/Project/logs/2021-06-20_logfile.txt with allowFileSharedWriting=False
+2021-06-20 21:34:56.1017 Info AppDomain Shutting down. Logger closing...
+2021-06-20 21:34:56.1050 Debug Stopping file watching for path '/home/ainea/Documents/work/dotnet/AccountOwnerServer/AccountOwnerServer' filter 'nlog.config'
+2021-06-20 21:34:56.1050 Debug Targets not configured for logger: LoggerService.LoggerManager
+2021-06-20 21:34:56.1050 Debug Closing logging configuration...
+2021-06-20 21:34:56.1083 Trace Closing File Target[logfile]
+2021-06-20 21:34:56.1083 Debug Closing target 'File Target[logfile]'.
+2021-06-20 21:34:56.1083 Trace FileTarget(Name=logfile): FinalizeFile '/home/ainea/Documents/work/dotnet/AccountOwnerServer/AccountOwnerServer/bin/Debug/netcoreapp3.1/home/ainea/Documents/work/dotnet/AccountOwnerServer/AccountOwnerServer/Project/logs/2021-06-20_logfile.txt, isArchiving: False'
+2021-06-20 21:34:56.1128 Debug FileAppender Closing Invalidate - /home/ainea/Documents/work/dotnet/AccountOwnerServer/AccountOwnerServer/bin/Debug/netcoreapp3.1/home/ainea/Documents/work/dotnet/AccountOwnerServer/AccountOwnerServer/Project/logs/2021-06-20_logfile.txt
+2021-06-20 21:34:56.1128 Debug Closed target 'File Target[logfile]'.
+2021-06-20 21:34:56.1128 Trace Closing 'home/ainea/Documents/work/dotnet/AccountOwnerServer/AccountOwnerServer/Project/logs/${shortdate}_logfile.txt'
+2021-06-20 21:34:56.1128 Trace Closing Layout Renderer: ${literal}
+2021-06-20 21:34:56.1128 Trace Closing Layout Renderer: ${shortdate}
+2021-06-20 21:34:56.1128 Trace Closing Layout Renderer: ${literal}
+2021-06-20 21:34:56.1163 Trace Closing '${longdate} ${level:uppercase=true} ${message}'
+2021-06-20 21:34:56.1163 Trace Closing Layout Renderer: ${longdate}
+2021-06-20 21:34:56.1163 Trace Closing Layout Renderer: ${literal}
+2021-06-20 21:34:56.1163 Trace Closing Layout Renderer: ${uppercase}
+2021-06-20 21:34:56.1163 Trace Closing SimpleLayout=Layout Renderer: ${level}
+2021-06-20 21:34:56.1163 Trace Closing Layout Renderer: ${level}
+2021-06-20 21:34:56.1163 Trace Closing Layout Renderer: ${literal}
+2021-06-20 21:34:56.1163 Trace Closing Layout Renderer: ${message}
+2021-06-20 21:34:56.1163 Debug Finished closing logging configuration.
+2021-06-20 21:34:56.1163 Info Logger has been shut down.
+2021-06-20 21:35:43.4140 Debug ScanAssembly('NLog, Version=4.0.0.0, Culture=neutral, PublicKeyToken=5120e14c03d0593c')
+2021-06-20 21:35:43.4570 Debug Found assembly location directory: '/home/ainea/Documents/work/dotnet/AccountOwnerServer/AccountOwnerServer/bin/Debug/netcoreapp3.1' (NLog, Version=4.0.0.0, Culture=neutral, PublicKeyToken=5120e14c03d0593c)
+2021-06-20 21:35:43.4570 Debug Auto loading based on NLog-Assembly found location: /home/ainea/Documents/work/dotnet/AccountOwnerServer/AccountOwnerServer/bin/Debug/netcoreapp3.1
+2021-06-20 21:35:43.4570 Debug Search for auto loading files in location: /home/ainea/Documents/work/dotnet/AccountOwnerServer/AccountOwnerServer/bin/Debug/netcoreapp3.1
+2021-06-20 21:35:43.4570 Debug Start auto loading, location: /home/ainea/Documents/work/dotnet/AccountOwnerServer/AccountOwnerServer/bin/Debug/netcoreapp3.1
+2021-06-20 21:35:43.4616 Info Auto loading assembly file: /home/ainea/Documents/work/dotnet/AccountOwnerServer/AccountOwnerServer/bin/Debug/netcoreapp3.1/NLog.Extensions.Logging.dll
+2021-06-20 21:35:43.4616 Info Loading assembly file: /home/ainea/Documents/work/dotnet/AccountOwnerServer/AccountOwnerServer/bin/Debug/netcoreapp3.1/NLog.Extensions.Logging.dll
+2021-06-20 21:35:43.4708 Info NLog.Extensions.Logging, Version=1.0.0.0, Culture=neutral, PublicKeyToken=5120e14c03d0593c. File version: 1.7.2.1548. Product version: 1.7.2+4bd1909dde91279dbdea4d1c38ff6a09de78f531. GlobalAssemblyCache: False
+2021-06-20 21:35:43.4708 Debug ScanAssembly('NLog.Extensions.Logging, Version=1.0.0.0, Culture=neutral, PublicKeyToken=5120e14c03d0593c')
+2021-06-20 21:35:43.4708 Info Auto loading assembly file: /home/ainea/Documents/work/dotnet/AccountOwnerServer/AccountOwnerServer/bin/Debug/netcoreapp3.1/NLog.Extensions.Logging.dll succeeded!
+2021-06-20 21:35:43.4732 Trace Assembly 'Microsoft.Extensions.Logging, Version=5.0.0.0, Culture=neutral, PublicKeyToken=adb9793829ddae60' will be hidden in callsite stacktrace
+2021-06-20 21:35:43.4732 Trace Assembly 'Microsoft.Extensions.Logging.Abstractions, Version=5.0.0.0, Culture=neutral, PublicKeyToken=adb9793829ddae60' will be hidden in callsite stacktrace
+2021-06-20 21:35:43.4732 Trace Assembly 'NLog.Extensions.Logging, Version=1.0.0.0, Culture=neutral, PublicKeyToken=5120e14c03d0593c' will be hidden in callsite stacktrace
+2021-06-20 21:35:43.4732 Debug Auto loading done
+2021-06-20 21:35:43.4732 Info Message Template Auto Format enabled
+2021-06-20 21:35:43.4867 Trace FindReachableObject<NLog.Internal.IRenderable>:
+2021-06-20 21:35:43.4890 Trace Scanning LongDateLayoutRenderer 'Layout Renderer: ${longdate}'
+2021-06-20 21:35:43.4930 Debug Setting 'NLog.LayoutRenderers.Wrappers.UppercaseLayoutRendererWrapper.uppercase' to 'true'
+2021-06-20 21:35:43.4930 Trace Wrapping NLog.LayoutRenderers.LevelLayoutRenderer with NLog.LayoutRenderers.Wrappers.UppercaseLayoutRendererWrapper
+2021-06-20 21:35:43.4930 Trace FindReachableObject<NLog.Internal.IRenderable>:
+2021-06-20 21:35:43.4930 Trace Scanning LevelLayoutRenderer 'Layout Renderer: ${level}'
+2021-06-20 21:35:43.4930 Trace FindReachableObject<NLog.Internal.IRenderable>:
+2021-06-20 21:35:43.4930 Trace Scanning UppercaseLayoutRendererWrapper 'Layout Renderer: ${uppercase}'
+2021-06-20 21:35:43.4962 Trace  Scanning Property Inner 'SimpleLayout=Layout Renderer: ${level}' NLog.Layouts
+2021-06-20 21:35:43.4962 Trace  Scanning SimpleLayout 'SimpleLayout=Layout Renderer: ${level}'
+2021-06-20 21:35:43.4962 Trace   Scanning Property Renderers 'System.Collections.ObjectModel.ReadOnlyCollection`1[NLog.LayoutRenderers.LayoutRenderer]' System.Collections.ObjectModel
+2021-06-20 21:35:43.4962 Trace   Scanning LevelLayoutRenderer 'Layout Renderer: ${level}'
+2021-06-20 21:35:43.4962 Trace FindReachableObject<NLog.Internal.IRenderable>:
+2021-06-20 21:35:43.4962 Trace Scanning LoggerNameLayoutRenderer 'Layout Renderer: ${logger}'
+2021-06-20 21:35:43.4962 Trace FindReachableObject<NLog.Internal.IRenderable>:
+2021-06-20 21:35:43.4962 Trace Scanning MessageLayoutRenderer 'Layout Renderer: ${message}'
+2021-06-20 21:35:43.5022 Debug Setting 'NLog.Targets.FileTarget.name' to 'logfile'
+2021-06-20 21:35:43.5022 Debug Setting 'NLog.Targets.FileTarget.fileName' to 'home/ainea/Documents/work/dotnet/AccountOwnerServer/AccountOwnerServer/Project/logs/${shortdate}_logfile.txt'
+2021-06-20 21:35:43.5022 Trace FindReachableObject<NLog.Internal.IRenderable>:
+2021-06-20 21:35:43.5022 Trace Scanning ShortDateLayoutRenderer 'Layout Renderer: ${shortdate}'
+2021-06-20 21:35:43.5022 Debug Setting 'NLog.Targets.FileTarget.layout' to '${longdate} ${level:uppercase=true} ${message}'
+2021-06-20 21:35:43.5022 Trace FindReachableObject<NLog.Internal.IRenderable>:
+2021-06-20 21:35:43.5022 Trace Scanning LongDateLayoutRenderer 'Layout Renderer: ${longdate}'
+2021-06-20 21:35:43.5022 Debug Setting 'NLog.LayoutRenderers.Wrappers.UppercaseLayoutRendererWrapper.uppercase' to 'true'
+2021-06-20 21:35:43.5022 Trace Wrapping NLog.LayoutRenderers.LevelLayoutRenderer with NLog.LayoutRenderers.Wrappers.UppercaseLayoutRendererWrapper
+2021-06-20 21:35:43.5022 Trace FindReachableObject<NLog.Internal.IRenderable>:
+2021-06-20 21:35:43.5022 Trace Scanning LevelLayoutRenderer 'Layout Renderer: ${level}'
+2021-06-20 21:35:43.5022 Trace FindReachableObject<NLog.Internal.IRenderable>:
+2021-06-20 21:35:43.5022 Trace Scanning UppercaseLayoutRendererWrapper 'Layout Renderer: ${uppercase}'
+2021-06-20 21:35:43.5022 Trace  Scanning Property Inner 'SimpleLayout=Layout Renderer: ${level}' NLog.Layouts
+2021-06-20 21:35:43.5022 Trace  Scanning SimpleLayout 'SimpleLayout=Layout Renderer: ${level}'
+2021-06-20 21:35:43.5022 Trace   Scanning Property Renderers 'System.Collections.ObjectModel.ReadOnlyCollection`1[NLog.LayoutRenderers.LayoutRenderer]' System.Collections.ObjectModel
+2021-06-20 21:35:43.5022 Trace   Scanning LevelLayoutRenderer 'Layout Renderer: ${level}'
+2021-06-20 21:35:43.5022 Trace FindReachableObject<NLog.Internal.IRenderable>:
+2021-06-20 21:35:43.5022 Trace Scanning MessageLayoutRenderer 'Layout Renderer: ${message}'
+2021-06-20 21:35:43.5044 Info Adding target FileTarget(Name=logfile)
+2021-06-20 21:35:43.5044 Debug Registered target logfile: NLog.Targets.FileTarget
+2021-06-20 21:35:43.5044 Trace ParseRulesElement
+2021-06-20 21:35:43.5193 Debug Watching path '/home/ainea/Documents/work/dotnet/AccountOwnerServer/AccountOwnerServer' filter 'nlog.config' for changes.
+2021-06-20 21:35:43.5193 Debug --- NLog configuration dump ---
+2021-06-20 21:35:43.5202 Debug Targets:
+2021-06-20 21:35:43.5202 Debug File Target[logfile]
+2021-06-20 21:35:43.5202 Debug Rules:
+2021-06-20 21:35:43.5202 Debug logNamePattern: (:All) levels: [ Debug Info Warn Error Fatal ] appendTo: [ logfile ]
+2021-06-20 21:35:43.5202 Debug --- End of NLog configuration dump ---
+2021-06-20 21:35:43.5250 Trace FindReachableObject<System.Object>:
+2021-06-20 21:35:43.5250 Trace Scanning LoggingRule 'logNamePattern: (:All) levels: [ Debug Info Warn Error Fatal ] appendTo: [ logfile ]'
+2021-06-20 21:35:43.5250 Trace  Scanning Property Targets 'System.Collections.Generic.List`1[NLog.Targets.Target]' System.Collections.Generic
+2021-06-20 21:35:43.5250 Trace  Scanning FileTarget 'File Target[logfile]'
+2021-06-20 21:35:43.5250 Trace   Scanning Property FileName ''home/ainea/Documents/work/dotnet/AccountOwnerServer/AccountOwnerServer/Project/logs/${shortdate}_logfile.txt'' NLog.Layouts
+2021-06-20 21:35:43.5250 Trace   Scanning SimpleLayout ''home/ainea/Documents/work/dotnet/AccountOwnerServer/AccountOwnerServer/Project/logs/${shortdate}_logfile.txt''
+2021-06-20 21:35:43.5250 Trace    Scanning Property Renderers 'System.Collections.ObjectModel.ReadOnlyCollection`1[NLog.LayoutRenderers.LayoutRenderer]' System.Collections.ObjectModel
+2021-06-20 21:35:43.5250 Trace    Scanning LiteralLayoutRenderer 'Layout Renderer: ${literal}'
+2021-06-20 21:35:43.5250 Trace    Scanning ShortDateLayoutRenderer 'Layout Renderer: ${shortdate}'
+2021-06-20 21:35:43.5250 Trace    Scanning LiteralLayoutRenderer 'Layout Renderer: ${literal}'
+2021-06-20 21:35:43.5250 Trace   Scanning Property Layout ''${longdate} ${level:uppercase=true} ${message}'' NLog.Layouts
+2021-06-20 21:35:43.5250 Trace   Scanning SimpleLayout ''${longdate} ${level:uppercase=true} ${message}''
+2021-06-20 21:35:43.5250 Trace    Scanning Property Renderers 'System.Collections.ObjectModel.ReadOnlyCollection`1[NLog.LayoutRenderers.LayoutRenderer]' System.Collections.ObjectModel
+2021-06-20 21:35:43.5250 Trace    Scanning LongDateLayoutRenderer 'Layout Renderer: ${longdate}'
+2021-06-20 21:35:43.5250 Trace    Scanning LiteralLayoutRenderer 'Layout Renderer: ${literal}'
+2021-06-20 21:35:43.5250 Trace    Scanning UppercaseLayoutRendererWrapper 'Layout Renderer: ${uppercase}'
+2021-06-20 21:35:43.5250 Trace     Scanning Property Inner 'SimpleLayout=Layout Renderer: ${level}' NLog.Layouts
+2021-06-20 21:35:43.5250 Trace     Scanning SimpleLayout 'SimpleLayout=Layout Renderer: ${level}'
+2021-06-20 21:35:43.5250 Trace      Scanning Property Renderers 'System.Collections.ObjectModel.ReadOnlyCollection`1[NLog.LayoutRenderers.LayoutRenderer]' System.Collections.ObjectModel
+2021-06-20 21:35:43.5250 Trace      Scanning LevelLayoutRenderer 'Layout Renderer: ${level}'
+2021-06-20 21:35:43.5250 Trace    Scanning LiteralLayoutRenderer 'Layout Renderer: ${literal}'
+2021-06-20 21:35:43.5250 Trace    Scanning MessageLayoutRenderer 'Layout Renderer: ${message}'
+2021-06-20 21:35:43.5250 Trace   Scanning Property LineEnding 'Default' NLog.Targets
+2021-06-20 21:35:43.5250 Trace  Scanning Property ChildRules 'System.Collections.Generic.List`1[NLog.Config.LoggingRule]' System.Collections.Generic
+2021-06-20 21:35:43.5250 Trace  Scanning Property Filters 'System.Collections.Generic.List`1[NLog.Filters.Filter]' System.Collections.Generic
+2021-06-20 21:35:43.5287 Info Validating config: TargetNames=logfile, ConfigItems=14, FilePath=/home/ainea/Documents/work/dotnet/AccountOwnerServer/AccountOwnerServer/nlog.config
+2021-06-20 21:35:43.5287 Debug Unused target checking is started... Rule Count: 1, Target Count: 1
+2021-06-20 21:35:43.5342 Debug Unused target checking is completed. Total Rule Count: 1, Total Target Count: 1, Unused Target Count: 0
+2021-06-20 21:35:43.5342 Trace Initializing Layout Renderer: ${message}
+2021-06-20 21:35:43.5342 Trace Initializing Layout Renderer: ${literal}
+2021-06-20 21:35:43.5342 Trace Initializing Layout Renderer: ${level}
+2021-06-20 21:35:43.5342 Trace Initializing SimpleLayout=Layout Renderer: ${level}
+2021-06-20 21:35:43.5374 Trace FindReachableObject<NLog.Internal.IRenderable>:
+2021-06-20 21:35:43.5374 Trace Scanning SimpleLayout 'SimpleLayout=Layout Renderer: ${level}'
+2021-06-20 21:35:43.5374 Trace  Scanning Property Renderers 'System.Collections.ObjectModel.ReadOnlyCollection`1[NLog.LayoutRenderers.LayoutRenderer]' System.Collections.ObjectModel
+2021-06-20 21:35:43.5374 Trace  Scanning LevelLayoutRenderer 'Layout Renderer: ${level}'
+2021-06-20 21:35:43.5374 Trace Initializing Layout Renderer: ${uppercase}
+2021-06-20 21:35:43.5374 Trace Initializing Layout Renderer: ${literal}
+2021-06-20 21:35:43.5402 Trace Initializing Layout Renderer: ${longdate}
+2021-06-20 21:35:43.5402 Trace Initializing '${longdate} ${level:uppercase=true} ${message}'
+2021-06-20 21:35:43.5402 Trace FindReachableObject<NLog.Internal.IRenderable>:
+2021-06-20 21:35:43.5402 Trace Scanning SimpleLayout ''${longdate} ${level:uppercase=true} ${message}''
+2021-06-20 21:35:43.5402 Trace  Scanning Property Renderers 'System.Collections.ObjectModel.ReadOnlyCollection`1[NLog.LayoutRenderers.LayoutRenderer]' System.Collections.ObjectModel
+2021-06-20 21:35:43.5402 Trace  Scanning LongDateLayoutRenderer 'Layout Renderer: ${longdate}'
+2021-06-20 21:35:43.5402 Trace  Scanning LiteralLayoutRenderer 'Layout Renderer: ${literal}'
+2021-06-20 21:35:43.5402 Trace  Scanning UppercaseLayoutRendererWrapper 'Layout Renderer: ${uppercase}'
+2021-06-20 21:35:43.5402 Trace   Scanning Property Inner 'SimpleLayout=Layout Renderer: ${level}' NLog.Layouts
+2021-06-20 21:35:43.5402 Trace   Scanning SimpleLayout 'SimpleLayout=Layout Renderer: ${level}'
+2021-06-20 21:35:43.5402 Trace    Scanning Property Renderers 'System.Collections.ObjectModel.ReadOnlyCollection`1[NLog.LayoutRenderers.LayoutRenderer]' System.Collections.ObjectModel
+2021-06-20 21:35:43.5402 Trace    Scanning LevelLayoutRenderer 'Layout Renderer: ${level}'
+2021-06-20 21:35:43.5402 Trace  Scanning LiteralLayoutRenderer 'Layout Renderer: ${literal}'
+2021-06-20 21:35:43.5402 Trace  Scanning MessageLayoutRenderer 'Layout Renderer: ${message}'
+2021-06-20 21:35:43.5402 Trace Initializing Layout Renderer: ${literal}
+2021-06-20 21:35:43.5402 Trace Initializing Layout Renderer: ${shortdate}
+2021-06-20 21:35:43.5402 Trace Initializing Layout Renderer: ${literal}
+2021-06-20 21:35:43.5402 Trace Initializing 'home/ainea/Documents/work/dotnet/AccountOwnerServer/AccountOwnerServer/Project/logs/${shortdate}_logfile.txt'
+2021-06-20 21:35:43.5402 Trace FindReachableObject<NLog.Internal.IRenderable>:
+2021-06-20 21:35:43.5402 Trace Scanning SimpleLayout ''home/ainea/Documents/work/dotnet/AccountOwnerServer/AccountOwnerServer/Project/logs/${shortdate}_logfile.txt''
+2021-06-20 21:35:43.5402 Trace  Scanning Property Renderers 'System.Collections.ObjectModel.ReadOnlyCollection`1[NLog.LayoutRenderers.LayoutRenderer]' System.Collections.ObjectModel
+2021-06-20 21:35:43.5402 Trace  Scanning LiteralLayoutRenderer 'Layout Renderer: ${literal}'
+2021-06-20 21:35:43.5402 Trace  Scanning ShortDateLayoutRenderer 'Layout Renderer: ${shortdate}'
+2021-06-20 21:35:43.5402 Trace  Scanning LiteralLayoutRenderer 'Layout Renderer: ${literal}'
+2021-06-20 21:35:43.5402 Trace Initializing File Target[logfile]
+2021-06-20 21:35:43.5402 Trace FindReachableObject<NLog.Layouts.Layout>:
+2021-06-20 21:35:43.5402 Trace Scanning FileTarget 'File Target[logfile]'
+2021-06-20 21:35:43.5402 Trace  Scanning Property FileName ''home/ainea/Documents/work/dotnet/AccountOwnerServer/AccountOwnerServer/Project/logs/${shortdate}_logfile.txt'' NLog.Layouts
+2021-06-20 21:35:43.5402 Trace  Scanning SimpleLayout ''home/ainea/Documents/work/dotnet/AccountOwnerServer/AccountOwnerServer/Project/logs/${shortdate}_logfile.txt''
+2021-06-20 21:35:43.5402 Trace  Scanning Property Layout ''${longdate} ${level:uppercase=true} ${message}'' NLog.Layouts
+2021-06-20 21:35:43.5402 Trace  Scanning SimpleLayout ''${longdate} ${level:uppercase=true} ${message}''
+2021-06-20 21:35:43.5402 Trace  Scanning Property LineEnding 'Default' NLog.Targets
+2021-06-20 21:35:43.5402 Trace File Target[logfile] has 2 layouts
+2021-06-20 21:35:43.5442 Trace FileTarget(Name=logfile): Using appenderFactory: NLog.Internal.FileAppenders.RetryingMultiProcessFileAppender+Factory
+2021-06-20 21:35:53.8405 Debug Targets for LoggerService.LoggerManager by level:
+2021-06-20 21:35:53.8405 Debug Trace =>
+2021-06-20 21:35:53.8405 Debug Debug => logfile
+2021-06-20 21:35:53.8405 Debug Info => logfile
+2021-06-20 21:35:53.8405 Debug Warn => logfile
+2021-06-20 21:35:53.8405 Debug Error => logfile
+2021-06-20 21:35:53.8405 Debug Fatal => logfile
+2021-06-20 21:35:53.8578 Debug FileTarget(Name=logfile): Preparing for new file '/home/ainea/Documents/work/dotnet/AccountOwnerServer/AccountOwnerServer/bin/Debug/netcoreapp3.1/home/ainea/Documents/work/dotnet/AccountOwnerServer/AccountOwnerServer/Project/logs/2021-06-20_logfile.txt'
+2021-06-20 21:35:53.8641 Debug Creating file appender: /home/ainea/Documents/work/dotnet/AccountOwnerServer/AccountOwnerServer/bin/Debug/netcoreapp3.1/home/ainea/Documents/work/dotnet/AccountOwnerServer/AccountOwnerServer/Project/logs/2021-06-20_logfile.txt
+2021-06-20 21:35:53.8658 Trace Opening /home/ainea/Documents/work/dotnet/AccountOwnerServer/AccountOwnerServer/bin/Debug/netcoreapp3.1/home/ainea/Documents/work/dotnet/AccountOwnerServer/AccountOwnerServer/Project/logs/2021-06-20_logfile.txt with allowFileSharedWriting=False
+2021-06-20 21:45:42.9763 Trace Opening /home/ainea/Documents/work/dotnet/AccountOwnerServer/AccountOwnerServer/bin/Debug/netcoreapp3.1/home/ainea/Documents/work/dotnet/AccountOwnerServer/AccountOwnerServer/Project/logs/2021-06-20_logfile.txt with allowFileSharedWriting=False
+2021-06-20 21:45:55.9505 Trace Opening /home/ainea/Documents/work/dotnet/AccountOwnerServer/AccountOwnerServer/bin/Debug/netcoreapp3.1/home/ainea/Documents/work/dotnet/AccountOwnerServer/AccountOwnerServer/Project/logs/2021-06-20_logfile.txt with allowFileSharedWriting=False
+2021-06-20 21:46:06.7191 Trace Opening /home/ainea/Documents/work/dotnet/AccountOwnerServer/AccountOwnerServer/bin/Debug/netcoreapp3.1/home/ainea/Documents/work/dotnet/AccountOwnerServer/AccountOwnerServer/Project/logs/2021-06-20_logfile.txt with allowFileSharedWriting=False
+2021-06-20 21:46:21.7376 Trace Opening /home/ainea/Documents/work/dotnet/AccountOwnerServer/AccountOwnerServer/bin/Debug/netcoreapp3.1/home/ainea/Documents/work/dotnet/AccountOwnerServer/AccountOwnerServer/Project/logs/2021-06-20_logfile.txt with allowFileSharedWriting=False
+2021-06-20 21:46:30.8875 Trace Opening /home/ainea/Documents/work/dotnet/AccountOwnerServer/AccountOwnerServer/bin/Debug/netcoreapp3.1/home/ainea/Documents/work/dotnet/AccountOwnerServer/AccountOwnerServer/Project/logs/2021-06-20_logfile.txt with allowFileSharedWriting=False
+2021-06-20 21:46:53.9235 Trace Opening /home/ainea/Documents/work/dotnet/AccountOwnerServer/AccountOwnerServer/bin/Debug/netcoreapp3.1/home/ainea/Documents/work/dotnet/AccountOwnerServer/AccountOwnerServer/Project/logs/2021-06-20_logfile.txt with allowFileSharedWriting=False
+2021-06-20 21:47:27.6854 Trace Opening /home/ainea/Documents/work/dotnet/AccountOwnerServer/AccountOwnerServer/bin/Debug/netcoreapp3.1/home/ainea/Documents/work/dotnet/AccountOwnerServer/AccountOwnerServer/Project/logs/2021-06-20_logfile.txt with allowFileSharedWriting=False
+2021-06-20 22:12:50.1382 Info AppDomain Shutting down. Logger closing...
+2021-06-20 22:12:50.1402 Debug Stopping file watching for path '/home/ainea/Documents/work/dotnet/AccountOwnerServer/AccountOwnerServer' filter 'nlog.config'
+2021-06-20 22:12:50.1402 Debug Targets not configured for logger: LoggerService.LoggerManager
+2021-06-20 22:12:50.1402 Debug Closing logging configuration...
+2021-06-20 22:12:50.1402 Trace Closing File Target[logfile]
+2021-06-20 22:12:50.1402 Debug Closing target 'File Target[logfile]'.
+2021-06-20 22:12:50.1444 Trace FileTarget(Name=logfile): FinalizeFile '/home/ainea/Documents/work/dotnet/AccountOwnerServer/AccountOwnerServer/bin/Debug/netcoreapp3.1/home/ainea/Documents/work/dotnet/AccountOwnerServer/AccountOwnerServer/Project/logs/2021-06-20_logfile.txt, isArchiving: False'
+2021-06-20 22:12:50.1444 Debug FileAppender Closing Invalidate - /home/ainea/Documents/work/dotnet/AccountOwnerServer/AccountOwnerServer/bin/Debug/netcoreapp3.1/home/ainea/Documents/work/dotnet/AccountOwnerServer/AccountOwnerServer/Project/logs/2021-06-20_logfile.txt
+2021-06-20 22:12:50.1444 Debug Closed target 'File Target[logfile]'.
+2021-06-20 22:12:50.1444 Trace Closing 'home/ainea/Documents/work/dotnet/AccountOwnerServer/AccountOwnerServer/Project/logs/${shortdate}_logfile.txt'
+2021-06-20 22:12:50.1444 Trace Closing Layout Renderer: ${literal}
+2021-06-20 22:12:50.1444 Trace Closing Layout Renderer: ${shortdate}
+2021-06-20 22:12:50.1444 Trace Closing Layout Renderer: ${literal}
+2021-06-20 22:12:50.1444 Trace Closing '${longdate} ${level:uppercase=true} ${message}'
+2021-06-20 22:12:50.1444 Trace Closing Layout Renderer: ${longdate}
+2021-06-20 22:12:50.1444 Trace Closing Layout Renderer: ${literal}
+2021-06-20 22:12:50.1444 Trace Closing Layout Renderer: ${uppercase}
+2021-06-20 22:12:50.1482 Trace Closing SimpleLayout=Layout Renderer: ${level}
+2021-06-20 22:12:50.1482 Trace Closing Layout Renderer: ${level}
+2021-06-20 22:12:50.1482 Trace Closing Layout Renderer: ${literal}
+2021-06-20 22:12:50.1482 Trace Closing Layout Renderer: ${message}
+2021-06-20 22:12:50.1482 Debug Finished closing logging configuration.
+2021-06-20 22:12:50.1482 Info Logger has been shut down.
+2021-06-20 22:12:57.6156 Debug ScanAssembly('NLog, Version=4.0.0.0, Culture=neutral, PublicKeyToken=5120e14c03d0593c')
+2021-06-20 22:12:57.6438 Debug Found assembly location directory: '/home/ainea/Documents/work/dotnet/AccountOwnerServer/AccountOwnerServer/bin/Debug/netcoreapp3.1' (NLog, Version=4.0.0.0, Culture=neutral, PublicKeyToken=5120e14c03d0593c)
+2021-06-20 22:12:57.6442 Debug Auto loading based on NLog-Assembly found location: /home/ainea/Documents/work/dotnet/AccountOwnerServer/AccountOwnerServer/bin/Debug/netcoreapp3.1
+2021-06-20 22:12:57.6442 Debug Search for auto loading files in location: /home/ainea/Documents/work/dotnet/AccountOwnerServer/AccountOwnerServer/bin/Debug/netcoreapp3.1
+2021-06-20 22:12:57.6442 Debug Start auto loading, location: /home/ainea/Documents/work/dotnet/AccountOwnerServer/AccountOwnerServer/bin/Debug/netcoreapp3.1
+2021-06-20 22:12:57.6484 Info Auto loading assembly file: /home/ainea/Documents/work/dotnet/AccountOwnerServer/AccountOwnerServer/bin/Debug/netcoreapp3.1/NLog.Extensions.Logging.dll
+2021-06-20 22:12:57.6484 Info Loading assembly file: /home/ainea/Documents/work/dotnet/AccountOwnerServer/AccountOwnerServer/bin/Debug/netcoreapp3.1/NLog.Extensions.Logging.dll
+2021-06-20 22:12:57.6576 Info NLog.Extensions.Logging, Version=1.0.0.0, Culture=neutral, PublicKeyToken=5120e14c03d0593c. File version: 1.7.2.1548. Product version: 1.7.2+4bd1909dde91279dbdea4d1c38ff6a09de78f531. GlobalAssemblyCache: False
+2021-06-20 22:12:57.6576 Debug ScanAssembly('NLog.Extensions.Logging, Version=1.0.0.0, Culture=neutral, PublicKeyToken=5120e14c03d0593c')
+2021-06-20 22:12:57.6576 Info Auto loading assembly file: /home/ainea/Documents/work/dotnet/AccountOwnerServer/AccountOwnerServer/bin/Debug/netcoreapp3.1/NLog.Extensions.Logging.dll succeeded!
+2021-06-20 22:12:57.6576 Trace Assembly 'Microsoft.Extensions.Logging, Version=5.0.0.0, Culture=neutral, PublicKeyToken=adb9793829ddae60' will be hidden in callsite stacktrace
+2021-06-20 22:12:57.6603 Trace Assembly 'Microsoft.Extensions.Logging.Abstractions, Version=5.0.0.0, Culture=neutral, PublicKeyToken=adb9793829ddae60' will be hidden in callsite stacktrace
+2021-06-20 22:12:57.6603 Trace Assembly 'NLog.Extensions.Logging, Version=1.0.0.0, Culture=neutral, PublicKeyToken=5120e14c03d0593c' will be hidden in callsite stacktrace
+2021-06-20 22:12:57.6603 Debug Auto loading done
+2021-06-20 22:12:57.6603 Info Message Template Auto Format enabled
+2021-06-20 22:12:57.6737 Trace FindReachableObject<NLog.Internal.IRenderable>:
+2021-06-20 22:12:57.6737 Trace Scanning LongDateLayoutRenderer 'Layout Renderer: ${longdate}'
+2021-06-20 22:12:57.6800 Debug Setting 'NLog.LayoutRenderers.Wrappers.UppercaseLayoutRendererWrapper.uppercase' to 'true'
+2021-06-20 22:12:57.6810 Trace Wrapping NLog.LayoutRenderers.LevelLayoutRenderer with NLog.LayoutRenderers.Wrappers.UppercaseLayoutRendererWrapper
+2021-06-20 22:12:57.6810 Trace FindReachableObject<NLog.Internal.IRenderable>:
+2021-06-20 22:12:57.6810 Trace Scanning LevelLayoutRenderer 'Layout Renderer: ${level}'
+2021-06-20 22:12:57.6810 Trace FindReachableObject<NLog.Internal.IRenderable>:
+2021-06-20 22:12:57.6810 Trace Scanning UppercaseLayoutRendererWrapper 'Layout Renderer: ${uppercase}'
+2021-06-20 22:12:57.6810 Trace  Scanning Property Inner 'SimpleLayout=Layout Renderer: ${level}' NLog.Layouts
+2021-06-20 22:12:57.6810 Trace  Scanning SimpleLayout 'SimpleLayout=Layout Renderer: ${level}'
+2021-06-20 22:12:57.6810 Trace   Scanning Property Renderers 'System.Collections.ObjectModel.ReadOnlyCollection`1[NLog.LayoutRenderers.LayoutRenderer]' System.Collections.ObjectModel
+2021-06-20 22:12:57.6848 Trace   Scanning LevelLayoutRenderer 'Layout Renderer: ${level}'
+2021-06-20 22:12:57.6848 Trace FindReachableObject<NLog.Internal.IRenderable>:
+2021-06-20 22:12:57.6848 Trace Scanning LoggerNameLayoutRenderer 'Layout Renderer: ${logger}'
+2021-06-20 22:12:57.6848 Trace FindReachableObject<NLog.Internal.IRenderable>:
+2021-06-20 22:12:57.6848 Trace Scanning MessageLayoutRenderer 'Layout Renderer: ${message}'
+2021-06-20 22:12:57.6890 Debug Setting 'NLog.Targets.FileTarget.name' to 'logfile'
+2021-06-20 22:12:57.6890 Debug Setting 'NLog.Targets.FileTarget.fileName' to 'home/ainea/Documents/work/dotnet/AccountOwnerServer/AccountOwnerServer/Project/logs/${shortdate}_logfile.txt'
+2021-06-20 22:12:57.6890 Trace FindReachableObject<NLog.Internal.IRenderable>:
+2021-06-20 22:12:57.6890 Trace Scanning ShortDateLayoutRenderer 'Layout Renderer: ${shortdate}'
+2021-06-20 22:12:57.6890 Debug Setting 'NLog.Targets.FileTarget.layout' to '${longdate} ${level:uppercase=true} ${message}'
+2021-06-20 22:12:57.6890 Trace FindReachableObject<NLog.Internal.IRenderable>:
+2021-06-20 22:12:57.6890 Trace Scanning LongDateLayoutRenderer 'Layout Renderer: ${longdate}'
+2021-06-20 22:12:57.6890 Debug Setting 'NLog.LayoutRenderers.Wrappers.UppercaseLayoutRendererWrapper.uppercase' to 'true'
+2021-06-20 22:12:57.6890 Trace Wrapping NLog.LayoutRenderers.LevelLayoutRenderer with NLog.LayoutRenderers.Wrappers.UppercaseLayoutRendererWrapper
+2021-06-20 22:12:57.6890 Trace FindReachableObject<NLog.Internal.IRenderable>:
+2021-06-20 22:12:57.6890 Trace Scanning LevelLayoutRenderer 'Layout Renderer: ${level}'
+2021-06-20 22:12:57.6890 Trace FindReachableObject<NLog.Internal.IRenderable>:
+2021-06-20 22:12:57.6890 Trace Scanning UppercaseLayoutRendererWrapper 'Layout Renderer: ${uppercase}'
+2021-06-20 22:12:57.6890 Trace  Scanning Property Inner 'SimpleLayout=Layout Renderer: ${level}' NLog.Layouts
+2021-06-20 22:12:57.6890 Trace  Scanning SimpleLayout 'SimpleLayout=Layout Renderer: ${level}'
+2021-06-20 22:12:57.6890 Trace   Scanning Property Renderers 'System.Collections.ObjectModel.ReadOnlyCollection`1[NLog.LayoutRenderers.LayoutRenderer]' System.Collections.ObjectModel
+2021-06-20 22:12:57.6890 Trace   Scanning LevelLayoutRenderer 'Layout Renderer: ${level}'
+2021-06-20 22:12:57.6890 Trace FindReachableObject<NLog.Internal.IRenderable>:
+2021-06-20 22:12:57.6890 Trace Scanning MessageLayoutRenderer 'Layout Renderer: ${message}'
+2021-06-20 22:12:57.6890 Info Adding target FileTarget(Name=logfile)
+2021-06-20 22:12:57.6890 Debug Registered target logfile: NLog.Targets.FileTarget
+2021-06-20 22:12:57.6922 Trace ParseRulesElement
+2021-06-20 22:12:57.7057 Debug Watching path '/home/ainea/Documents/work/dotnet/AccountOwnerServer/AccountOwnerServer' filter 'nlog.config' for changes.
+2021-06-20 22:12:57.7057 Debug --- NLog configuration dump ---
+2021-06-20 22:12:57.7057 Debug Targets:
+2021-06-20 22:12:57.7057 Debug File Target[logfile]
+2021-06-20 22:12:57.7057 Debug Rules:
+2021-06-20 22:12:57.7083 Debug logNamePattern: (:All) levels: [ Debug Info Warn Error Fatal ] appendTo: [ logfile ]
+2021-06-20 22:12:57.7083 Debug --- End of NLog configuration dump ---
+2021-06-20 22:12:57.7083 Trace FindReachableObject<System.Object>:
+2021-06-20 22:12:57.7083 Trace Scanning LoggingRule 'logNamePattern: (:All) levels: [ Debug Info Warn Error Fatal ] appendTo: [ logfile ]'
+2021-06-20 22:12:57.7083 Trace  Scanning Property Targets 'System.Collections.Generic.List`1[NLog.Targets.Target]' System.Collections.Generic
+2021-06-20 22:12:57.7083 Trace  Scanning FileTarget 'File Target[logfile]'
+2021-06-20 22:12:57.7083 Trace   Scanning Property FileName ''home/ainea/Documents/work/dotnet/AccountOwnerServer/AccountOwnerServer/Project/logs/${shortdate}_logfile.txt'' NLog.Layouts
+2021-06-20 22:12:57.7083 Trace   Scanning SimpleLayout ''home/ainea/Documents/work/dotnet/AccountOwnerServer/AccountOwnerServer/Project/logs/${shortdate}_logfile.txt''
+2021-06-20 22:12:57.7083 Trace    Scanning Property Renderers 'System.Collections.ObjectModel.ReadOnlyCollection`1[NLog.LayoutRenderers.LayoutRenderer]' System.Collections.ObjectModel
+2021-06-20 22:12:57.7083 Trace    Scanning LiteralLayoutRenderer 'Layout Renderer: ${literal}'
+2021-06-20 22:12:57.7083 Trace    Scanning ShortDateLayoutRenderer 'Layout Renderer: ${shortdate}'
+2021-06-20 22:12:57.7083 Trace    Scanning LiteralLayoutRenderer 'Layout Renderer: ${literal}'
+2021-06-20 22:12:57.7083 Trace   Scanning Property Layout ''${longdate} ${level:uppercase=true} ${message}'' NLog.Layouts
+2021-06-20 22:12:57.7083 Trace   Scanning SimpleLayout ''${longdate} ${level:uppercase=true} ${message}''
+2021-06-20 22:12:57.7083 Trace    Scanning Property Renderers 'System.Collections.ObjectModel.ReadOnlyCollection`1[NLog.LayoutRenderers.LayoutRenderer]' System.Collections.ObjectModel
+2021-06-20 22:12:57.7122 Trace    Scanning LongDateLayoutRenderer 'Layout Renderer: ${longdate}'
+2021-06-20 22:12:57.7122 Trace    Scanning LiteralLayoutRenderer 'Layout Renderer: ${literal}'
+2021-06-20 22:12:57.7122 Trace    Scanning UppercaseLayoutRendererWrapper 'Layout Renderer: ${uppercase}'
+2021-06-20 22:12:57.7122 Trace     Scanning Property Inner 'SimpleLayout=Layout Renderer: ${level}' NLog.Layouts
+2021-06-20 22:12:57.7122 Trace     Scanning SimpleLayout 'SimpleLayout=Layout Renderer: ${level}'
+2021-06-20 22:12:57.7122 Trace      Scanning Property Renderers 'System.Collections.ObjectModel.ReadOnlyCollection`1[NLog.LayoutRenderers.LayoutRenderer]' System.Collections.ObjectModel
+2021-06-20 22:12:57.7122 Trace      Scanning LevelLayoutRenderer 'Layout Renderer: ${level}'
+2021-06-20 22:12:57.7122 Trace    Scanning LiteralLayoutRenderer 'Layout Renderer: ${literal}'
+2021-06-20 22:12:57.7122 Trace    Scanning MessageLayoutRenderer 'Layout Renderer: ${message}'
+2021-06-20 22:12:57.7122 Trace   Scanning Property LineEnding 'Default' NLog.Targets
+2021-06-20 22:12:57.7122 Trace  Scanning Property ChildRules 'System.Collections.Generic.List`1[NLog.Config.LoggingRule]' System.Collections.Generic
+2021-06-20 22:12:57.7122 Trace  Scanning Property Filters 'System.Collections.Generic.List`1[NLog.Filters.Filter]' System.Collections.Generic
+2021-06-20 22:12:57.7122 Info Validating config: TargetNames=logfile, ConfigItems=14, FilePath=/home/ainea/Documents/work/dotnet/AccountOwnerServer/AccountOwnerServer/nlog.config
+2021-06-20 22:12:57.7163 Debug Unused target checking is started... Rule Count: 1, Target Count: 1
+2021-06-20 22:12:57.7204 Debug Unused target checking is completed. Total Rule Count: 1, Total Target Count: 1, Unused Target Count: 0
+2021-06-20 22:12:57.7204 Trace Initializing Layout Renderer: ${message}
+2021-06-20 22:12:57.7204 Trace Initializing Layout Renderer: ${literal}
+2021-06-20 22:12:57.7204 Trace Initializing Layout Renderer: ${level}
+2021-06-20 22:12:57.7204 Trace Initializing SimpleLayout=Layout Renderer: ${level}
+2021-06-20 22:12:57.7204 Trace FindReachableObject<NLog.Internal.IRenderable>:
+2021-06-20 22:12:57.7204 Trace Scanning SimpleLayout 'SimpleLayout=Layout Renderer: ${level}'
+2021-06-20 22:12:57.7204 Trace  Scanning Property Renderers 'System.Collections.ObjectModel.ReadOnlyCollection`1[NLog.LayoutRenderers.LayoutRenderer]' System.Collections.ObjectModel
+2021-06-20 22:12:57.7204 Trace  Scanning LevelLayoutRenderer 'Layout Renderer: ${level}'
+2021-06-20 22:12:57.7261 Trace Initializing Layout Renderer: ${uppercase}
+2021-06-20 22:12:57.7261 Trace Initializing Layout Renderer: ${literal}
+2021-06-20 22:12:57.7261 Trace Initializing Layout Renderer: ${longdate}
+2021-06-20 22:12:57.7261 Trace Initializing '${longdate} ${level:uppercase=true} ${message}'
+2021-06-20 22:12:57.7261 Trace FindReachableObject<NLog.Internal.IRenderable>:
+2021-06-20 22:12:57.7261 Trace Scanning SimpleLayout ''${longdate} ${level:uppercase=true} ${message}''
+2021-06-20 22:12:57.7261 Trace  Scanning Property Renderers 'System.Collections.ObjectModel.ReadOnlyCollection`1[NLog.LayoutRenderers.LayoutRenderer]' System.Collections.ObjectModel
+2021-06-20 22:12:57.7261 Trace  Scanning LongDateLayoutRenderer 'Layout Renderer: ${longdate}'
+2021-06-20 22:12:57.7261 Trace  Scanning LiteralLayoutRenderer 'Layout Renderer: ${literal}'
+2021-06-20 22:12:57.7261 Trace  Scanning UppercaseLayoutRendererWrapper 'Layout Renderer: ${uppercase}'
+2021-06-20 22:12:57.7261 Trace   Scanning Property Inner 'SimpleLayout=Layout Renderer: ${level}' NLog.Layouts
+2021-06-20 22:12:57.7261 Trace   Scanning SimpleLayout 'SimpleLayout=Layout Renderer: ${level}'
+2021-06-20 22:12:57.7261 Trace    Scanning Property Renderers 'System.Collections.ObjectModel.ReadOnlyCollection`1[NLog.LayoutRenderers.LayoutRenderer]' System.Collections.ObjectModel
+2021-06-20 22:12:57.7261 Trace    Scanning LevelLayoutRenderer 'Layout Renderer: ${level}'
+2021-06-20 22:12:57.7261 Trace  Scanning LiteralLayoutRenderer 'Layout Renderer: ${literal}'
+2021-06-20 22:12:57.7261 Trace  Scanning MessageLayoutRenderer 'Layout Renderer: ${message}'
+2021-06-20 22:12:57.7261 Trace Initializing Layout Renderer: ${literal}
+2021-06-20 22:12:57.7261 Trace Initializing Layout Renderer: ${shortdate}
+2021-06-20 22:12:57.7261 Trace Initializing Layout Renderer: ${literal}
+2021-06-20 22:12:57.7261 Trace Initializing 'home/ainea/Documents/work/dotnet/AccountOwnerServer/AccountOwnerServer/Project/logs/${shortdate}_logfile.txt'
+2021-06-20 22:12:57.7261 Trace FindReachableObject<NLog.Internal.IRenderable>:
+2021-06-20 22:12:57.7261 Trace Scanning SimpleLayout ''home/ainea/Documents/work/dotnet/AccountOwnerServer/AccountOwnerServer/Project/logs/${shortdate}_logfile.txt''
+2021-06-20 22:12:57.7261 Trace  Scanning Property Renderers 'System.Collections.ObjectModel.ReadOnlyCollection`1[NLog.LayoutRenderers.LayoutRenderer]' System.Collections.ObjectModel
+2021-06-20 22:12:57.7261 Trace  Scanning LiteralLayoutRenderer 'Layout Renderer: ${literal}'
+2021-06-20 22:12:57.7261 Trace  Scanning ShortDateLayoutRenderer 'Layout Renderer: ${shortdate}'
+2021-06-20 22:12:57.7261 Trace  Scanning LiteralLayoutRenderer 'Layout Renderer: ${literal}'
+2021-06-20 22:12:57.7261 Trace Initializing File Target[logfile]
+2021-06-20 22:12:57.7289 Trace FindReachableObject<NLog.Layouts.Layout>:
+2021-06-20 22:12:57.7289 Trace Scanning FileTarget 'File Target[logfile]'
+2021-06-20 22:12:57.7289 Trace  Scanning Property FileName ''home/ainea/Documents/work/dotnet/AccountOwnerServer/AccountOwnerServer/Project/logs/${shortdate}_logfile.txt'' NLog.Layouts
+2021-06-20 22:12:57.7289 Trace  Scanning SimpleLayout ''home/ainea/Documents/work/dotnet/AccountOwnerServer/AccountOwnerServer/Project/logs/${shortdate}_logfile.txt''
+2021-06-20 22:12:57.7289 Trace  Scanning Property Layout ''${longdate} ${level:uppercase=true} ${message}'' NLog.Layouts
+2021-06-20 22:12:57.7289 Trace  Scanning SimpleLayout ''${longdate} ${level:uppercase=true} ${message}''
+2021-06-20 22:12:57.7289 Trace  Scanning Property LineEnding 'Default' NLog.Targets
+2021-06-20 22:12:57.7289 Trace File Target[logfile] has 2 layouts
+2021-06-20 22:12:57.7289 Trace FileTarget(Name=logfile): Using appenderFactory: NLog.Internal.FileAppenders.RetryingMultiProcessFileAppender+Factory
+2021-06-20 22:14:27.9452 Info AppDomain Shutting down. Logger closing...
+2021-06-20 22:14:27.9486 Debug Stopping file watching for path '/home/ainea/Documents/work/dotnet/AccountOwnerServer/AccountOwnerServer' filter 'nlog.config'
+2021-06-20 22:14:27.9486 Debug Closing logging configuration...
+2021-06-20 22:14:27.9523 Trace Closing File Target[logfile]
+2021-06-20 22:14:27.9523 Debug Closing target 'File Target[logfile]'.
+2021-06-20 22:14:27.9523 Debug Closed target 'File Target[logfile]'.
+2021-06-20 22:14:27.9523 Trace Closing 'home/ainea/Documents/work/dotnet/AccountOwnerServer/AccountOwnerServer/Project/logs/${shortdate}_logfile.txt'
+2021-06-20 22:14:27.9523 Trace Closing Layout Renderer: ${literal}
+2021-06-20 22:14:27.9562 Trace Closing Layout Renderer: ${shortdate}
+2021-06-20 22:14:27.9562 Trace Closing Layout Renderer: ${literal}
+2021-06-20 22:14:27.9562 Trace Closing '${longdate} ${level:uppercase=true} ${message}'
+2021-06-20 22:14:27.9562 Trace Closing Layout Renderer: ${longdate}
+2021-06-20 22:14:27.9562 Trace Closing Layout Renderer: ${literal}
+2021-06-20 22:14:27.9562 Trace Closing Layout Renderer: ${uppercase}
+2021-06-20 22:14:27.9562 Trace Closing SimpleLayout=Layout Renderer: ${level}
+2021-06-20 22:14:27.9562 Trace Closing Layout Renderer: ${level}
+2021-06-20 22:14:27.9562 Trace Closing Layout Renderer: ${literal}
+2021-06-20 22:14:27.9562 Trace Closing Layout Renderer: ${message}
+2021-06-20 22:14:27.9562 Debug Finished closing logging configuration.
+2021-06-20 22:14:27.9562 Info Logger has been shut down.
+2021-06-20 22:14:37.0137 Debug ScanAssembly('NLog, Version=4.0.0.0, Culture=neutral, PublicKeyToken=5120e14c03d0593c')
+2021-06-20 22:14:37.0398 Debug Found assembly location directory: '/home/ainea/Documents/work/dotnet/AccountOwnerServer/AccountOwnerServer/bin/Debug/netcoreapp3.1' (NLog, Version=4.0.0.0, Culture=neutral, PublicKeyToken=5120e14c03d0593c)
+2021-06-20 22:14:37.0398 Debug Auto loading based on NLog-Assembly found location: /home/ainea/Documents/work/dotnet/AccountOwnerServer/AccountOwnerServer/bin/Debug/netcoreapp3.1
+2021-06-20 22:14:37.0407 Debug Search for auto loading files in location: /home/ainea/Documents/work/dotnet/AccountOwnerServer/AccountOwnerServer/bin/Debug/netcoreapp3.1
+2021-06-20 22:14:37.0407 Debug Start auto loading, location: /home/ainea/Documents/work/dotnet/AccountOwnerServer/AccountOwnerServer/bin/Debug/netcoreapp3.1
+2021-06-20 22:14:37.0442 Info Auto loading assembly file: /home/ainea/Documents/work/dotnet/AccountOwnerServer/AccountOwnerServer/bin/Debug/netcoreapp3.1/NLog.Extensions.Logging.dll
+2021-06-20 22:14:37.0442 Info Loading assembly file: /home/ainea/Documents/work/dotnet/AccountOwnerServer/AccountOwnerServer/bin/Debug/netcoreapp3.1/NLog.Extensions.Logging.dll
+2021-06-20 22:14:37.0537 Info NLog.Extensions.Logging, Version=1.0.0.0, Culture=neutral, PublicKeyToken=5120e14c03d0593c. File version: 1.7.2.1548. Product version: 1.7.2+4bd1909dde91279dbdea4d1c38ff6a09de78f531. GlobalAssemblyCache: False
+2021-06-20 22:14:37.0537 Debug ScanAssembly('NLog.Extensions.Logging, Version=1.0.0.0, Culture=neutral, PublicKeyToken=5120e14c03d0593c')
+2021-06-20 22:14:37.0537 Info Auto loading assembly file: /home/ainea/Documents/work/dotnet/AccountOwnerServer/AccountOwnerServer/bin/Debug/netcoreapp3.1/NLog.Extensions.Logging.dll succeeded!
+2021-06-20 22:14:37.0537 Trace Assembly 'Microsoft.Extensions.Logging, Version=5.0.0.0, Culture=neutral, PublicKeyToken=adb9793829ddae60' will be hidden in callsite stacktrace
+2021-06-20 22:14:37.0563 Trace Assembly 'Microsoft.Extensions.Logging.Abstractions, Version=5.0.0.0, Culture=neutral, PublicKeyToken=adb9793829ddae60' will be hidden in callsite stacktrace
+2021-06-20 22:14:37.0563 Trace Assembly 'NLog.Extensions.Logging, Version=1.0.0.0, Culture=neutral, PublicKeyToken=5120e14c03d0593c' will be hidden in callsite stacktrace
+2021-06-20 22:14:37.0563 Debug Auto loading done
+2021-06-20 22:14:37.0563 Info Message Template Auto Format enabled
+2021-06-20 22:14:37.0698 Trace FindReachableObject<NLog.Internal.IRenderable>:
+2021-06-20 22:14:37.0698 Trace Scanning LongDateLayoutRenderer 'Layout Renderer: ${longdate}'
+2021-06-20 22:14:37.0762 Debug Setting 'NLog.LayoutRenderers.Wrappers.UppercaseLayoutRendererWrapper.uppercase' to 'true'
+2021-06-20 22:14:37.0762 Trace Wrapping NLog.LayoutRenderers.LevelLayoutRenderer with NLog.LayoutRenderers.Wrappers.UppercaseLayoutRendererWrapper
+2021-06-20 22:14:37.0762 Trace FindReachableObject<NLog.Internal.IRenderable>:
+2021-06-20 22:14:37.0762 Trace Scanning LevelLayoutRenderer 'Layout Renderer: ${level}'
+2021-06-20 22:14:37.0762 Trace FindReachableObject<NLog.Internal.IRenderable>:
+2021-06-20 22:14:37.0762 Trace Scanning UppercaseLayoutRendererWrapper 'Layout Renderer: ${uppercase}'
+2021-06-20 22:14:37.0762 Trace  Scanning Property Inner 'SimpleLayout=Layout Renderer: ${level}' NLog.Layouts
+2021-06-20 22:14:37.0762 Trace  Scanning SimpleLayout 'SimpleLayout=Layout Renderer: ${level}'
+2021-06-20 22:14:37.0762 Trace   Scanning Property Renderers 'System.Collections.ObjectModel.ReadOnlyCollection`1[NLog.LayoutRenderers.LayoutRenderer]' System.Collections.ObjectModel
+2021-06-20 22:14:37.0809 Trace   Scanning LevelLayoutRenderer 'Layout Renderer: ${level}'
+2021-06-20 22:14:37.0809 Trace FindReachableObject<NLog.Internal.IRenderable>:
+2021-06-20 22:14:37.0809 Trace Scanning LoggerNameLayoutRenderer 'Layout Renderer: ${logger}'
+2021-06-20 22:14:37.0809 Trace FindReachableObject<NLog.Internal.IRenderable>:
+2021-06-20 22:14:37.0809 Trace Scanning MessageLayoutRenderer 'Layout Renderer: ${message}'
+2021-06-20 22:14:37.0862 Debug Setting 'NLog.Targets.FileTarget.name' to 'logfile'
+2021-06-20 22:14:37.0862 Debug Setting 'NLog.Targets.FileTarget.fileName' to 'home/ainea/Documents/work/dotnet/AccountOwnerServer/AccountOwnerServer/Project/logs/${shortdate}_logfile.txt'
+2021-06-20 22:14:37.0862 Trace FindReachableObject<NLog.Internal.IRenderable>:
+2021-06-20 22:14:37.0862 Trace Scanning ShortDateLayoutRenderer 'Layout Renderer: ${shortdate}'
+2021-06-20 22:14:37.0862 Debug Setting 'NLog.Targets.FileTarget.layout' to '${longdate} ${level:uppercase=true} ${message}'
+2021-06-20 22:14:37.0862 Trace FindReachableObject<NLog.Internal.IRenderable>:
+2021-06-20 22:14:37.0862 Trace Scanning LongDateLayoutRenderer 'Layout Renderer: ${longdate}'
+2021-06-20 22:14:37.0862 Debug Setting 'NLog.LayoutRenderers.Wrappers.UppercaseLayoutRendererWrapper.uppercase' to 'true'
+2021-06-20 22:14:37.0862 Trace Wrapping NLog.LayoutRenderers.LevelLayoutRenderer with NLog.LayoutRenderers.Wrappers.UppercaseLayoutRendererWrapper
+2021-06-20 22:14:37.0862 Trace FindReachableObject<NLog.Internal.IRenderable>:
+2021-06-20 22:14:37.0862 Trace Scanning LevelLayoutRenderer 'Layout Renderer: ${level}'
+2021-06-20 22:14:37.0862 Trace FindReachableObject<NLog.Internal.IRenderable>:
+2021-06-20 22:14:37.0862 Trace Scanning UppercaseLayoutRendererWrapper 'Layout Renderer: ${uppercase}'
+2021-06-20 22:14:37.0862 Trace  Scanning Property Inner 'SimpleLayout=Layout Renderer: ${level}' NLog.Layouts
+2021-06-20 22:14:37.0862 Trace  Scanning SimpleLayout 'SimpleLayout=Layout Renderer: ${level}'
+2021-06-20 22:14:37.0862 Trace   Scanning Property Renderers 'System.Collections.ObjectModel.ReadOnlyCollection`1[NLog.LayoutRenderers.LayoutRenderer]' System.Collections.ObjectModel
+2021-06-20 22:14:37.0862 Trace   Scanning LevelLayoutRenderer 'Layout Renderer: ${level}'
+2021-06-20 22:14:37.0862 Trace FindReachableObject<NLog.Internal.IRenderable>:
+2021-06-20 22:14:37.0862 Trace Scanning MessageLayoutRenderer 'Layout Renderer: ${message}'
+2021-06-20 22:14:37.0884 Info Adding target FileTarget(Name=logfile)
+2021-06-20 22:14:37.0884 Debug Registered target logfile: NLog.Targets.FileTarget
+2021-06-20 22:14:37.0884 Trace ParseRulesElement
+2021-06-20 22:14:37.1023 Debug Watching path '/home/ainea/Documents/work/dotnet/AccountOwnerServer/AccountOwnerServer' filter 'nlog.config' for changes.
+2021-06-20 22:14:37.1023 Debug --- NLog configuration dump ---
+2021-06-20 22:14:37.1023 Debug Targets:
+2021-06-20 22:14:37.1023 Debug File Target[logfile]
+2021-06-20 22:14:37.1023 Debug Rules:
+2021-06-20 22:14:37.1050 Debug logNamePattern: (:All) levels: [ Debug Info Warn Error Fatal ] appendTo: [ logfile ]
+2021-06-20 22:14:37.1050 Debug --- End of NLog configuration dump ---
+2021-06-20 22:14:37.1050 Trace FindReachableObject<System.Object>:
+2021-06-20 22:14:37.1050 Trace Scanning LoggingRule 'logNamePattern: (:All) levels: [ Debug Info Warn Error Fatal ] appendTo: [ logfile ]'
+2021-06-20 22:14:37.1050 Trace  Scanning Property Targets 'System.Collections.Generic.List`1[NLog.Targets.Target]' System.Collections.Generic
+2021-06-20 22:14:37.1082 Trace  Scanning FileTarget 'File Target[logfile]'
+2021-06-20 22:14:37.1082 Trace   Scanning Property FileName ''home/ainea/Documents/work/dotnet/AccountOwnerServer/AccountOwnerServer/Project/logs/${shortdate}_logfile.txt'' NLog.Layouts
+2021-06-20 22:14:37.1082 Trace   Scanning SimpleLayout ''home/ainea/Documents/work/dotnet/AccountOwnerServer/AccountOwnerServer/Project/logs/${shortdate}_logfile.txt''
+2021-06-20 22:14:37.1082 Trace    Scanning Property Renderers 'System.Collections.ObjectModel.ReadOnlyCollection`1[NLog.LayoutRenderers.LayoutRenderer]' System.Collections.ObjectModel
+2021-06-20 22:14:37.1082 Trace    Scanning LiteralLayoutRenderer 'Layout Renderer: ${literal}'
+2021-06-20 22:14:37.1082 Trace    Scanning ShortDateLayoutRenderer 'Layout Renderer: ${shortdate}'
+2021-06-20 22:14:37.1082 Trace    Scanning LiteralLayoutRenderer 'Layout Renderer: ${literal}'
+2021-06-20 22:14:37.1082 Trace   Scanning Property Layout ''${longdate} ${level:uppercase=true} ${message}'' NLog.Layouts
+2021-06-20 22:14:37.1082 Trace   Scanning SimpleLayout ''${longdate} ${level:uppercase=true} ${message}''
+2021-06-20 22:14:37.1082 Trace    Scanning Property Renderers 'System.Collections.ObjectModel.ReadOnlyCollection`1[NLog.LayoutRenderers.LayoutRenderer]' System.Collections.ObjectModel
+2021-06-20 22:14:37.1082 Trace    Scanning LongDateLayoutRenderer 'Layout Renderer: ${longdate}'
+2021-06-20 22:14:37.1082 Trace    Scanning LiteralLayoutRenderer 'Layout Renderer: ${literal}'
+2021-06-20 22:14:37.1082 Trace    Scanning UppercaseLayoutRendererWrapper 'Layout Renderer: ${uppercase}'
+2021-06-20 22:14:37.1082 Trace     Scanning Property Inner 'SimpleLayout=Layout Renderer: ${level}' NLog.Layouts
+2021-06-20 22:14:37.1082 Trace     Scanning SimpleLayout 'SimpleLayout=Layout Renderer: ${level}'
+2021-06-20 22:14:37.1082 Trace      Scanning Property Renderers 'System.Collections.ObjectModel.ReadOnlyCollection`1[NLog.LayoutRenderers.LayoutRenderer]' System.Collections.ObjectModel
+2021-06-20 22:14:37.1082 Trace      Scanning LevelLayoutRenderer 'Layout Renderer: ${level}'
+2021-06-20 22:14:37.1082 Trace    Scanning LiteralLayoutRenderer 'Layout Renderer: ${literal}'
+2021-06-20 22:14:37.1082 Trace    Scanning MessageLayoutRenderer 'Layout Renderer: ${message}'
+2021-06-20 22:14:37.1082 Trace   Scanning Property LineEnding 'Default' NLog.Targets
+2021-06-20 22:14:37.1082 Trace  Scanning Property ChildRules 'System.Collections.Generic.List`1[NLog.Config.LoggingRule]' System.Collections.Generic
+2021-06-20 22:14:37.1082 Trace  Scanning Property Filters 'System.Collections.Generic.List`1[NLog.Filters.Filter]' System.Collections.Generic
+2021-06-20 22:14:37.1082 Info Validating config: TargetNames=logfile, ConfigItems=14, FilePath=/home/ainea/Documents/work/dotnet/AccountOwnerServer/AccountOwnerServer/nlog.config
+2021-06-20 22:14:37.1128 Debug Unused target checking is started... Rule Count: 1, Target Count: 1
+2021-06-20 22:14:37.1169 Debug Unused target checking is completed. Total Rule Count: 1, Total Target Count: 1, Unused Target Count: 0
+2021-06-20 22:14:37.1169 Trace Initializing Layout Renderer: ${message}
+2021-06-20 22:14:37.1169 Trace Initializing Layout Renderer: ${literal}
+2021-06-20 22:14:37.1169 Trace Initializing Layout Renderer: ${level}
+2021-06-20 22:14:37.1169 Trace Initializing SimpleLayout=Layout Renderer: ${level}
+2021-06-20 22:14:37.1169 Trace FindReachableObject<NLog.Internal.IRenderable>:
+2021-06-20 22:14:37.1203 Trace Scanning SimpleLayout 'SimpleLayout=Layout Renderer: ${level}'
+2021-06-20 22:14:37.1203 Trace  Scanning Property Renderers 'System.Collections.ObjectModel.ReadOnlyCollection`1[NLog.LayoutRenderers.LayoutRenderer]' System.Collections.ObjectModel
+2021-06-20 22:14:37.1203 Trace  Scanning LevelLayoutRenderer 'Layout Renderer: ${level}'
+2021-06-20 22:14:37.1203 Trace Initializing Layout Renderer: ${uppercase}
+2021-06-20 22:14:37.1203 Trace Initializing Layout Renderer: ${literal}
+2021-06-20 22:14:37.1203 Trace Initializing Layout Renderer: ${longdate}
+2021-06-20 22:14:37.1203 Trace Initializing '${longdate} ${level:uppercase=true} ${message}'
+2021-06-20 22:14:37.1203 Trace FindReachableObject<NLog.Internal.IRenderable>:
+2021-06-20 22:14:37.1203 Trace Scanning SimpleLayout ''${longdate} ${level:uppercase=true} ${message}''
+2021-06-20 22:14:37.1203 Trace  Scanning Property Renderers 'System.Collections.ObjectModel.ReadOnlyCollection`1[NLog.LayoutRenderers.LayoutRenderer]' System.Collections.ObjectModel
+2021-06-20 22:14:37.1203 Trace  Scanning LongDateLayoutRenderer 'Layout Renderer: ${longdate}'
+2021-06-20 22:14:37.1203 Trace  Scanning LiteralLayoutRenderer 'Layout Renderer: ${literal}'
+2021-06-20 22:14:37.1203 Trace  Scanning UppercaseLayoutRendererWrapper 'Layout Renderer: ${uppercase}'
+2021-06-20 22:14:37.1203 Trace   Scanning Property Inner 'SimpleLayout=Layout Renderer: ${level}' NLog.Layouts
+2021-06-20 22:14:37.1203 Trace   Scanning SimpleLayout 'SimpleLayout=Layout Renderer: ${level}'
+2021-06-20 22:14:37.1203 Trace    Scanning Property Renderers 'System.Collections.ObjectModel.ReadOnlyCollection`1[NLog.LayoutRenderers.LayoutRenderer]' System.Collections.ObjectModel
+2021-06-20 22:14:37.1203 Trace    Scanning LevelLayoutRenderer 'Layout Renderer: ${level}'
+2021-06-20 22:14:37.1203 Trace  Scanning LiteralLayoutRenderer 'Layout Renderer: ${literal}'
+2021-06-20 22:14:37.1203 Trace  Scanning MessageLayoutRenderer 'Layout Renderer: ${message}'
+2021-06-20 22:14:37.1203 Trace Initializing Layout Renderer: ${literal}
+2021-06-20 22:14:37.1203 Trace Initializing Layout Renderer: ${shortdate}
+2021-06-20 22:14:37.1203 Trace Initializing Layout Renderer: ${literal}
+2021-06-20 22:14:37.1203 Trace Initializing 'home/ainea/Documents/work/dotnet/AccountOwnerServer/AccountOwnerServer/Project/logs/${shortdate}_logfile.txt'
+2021-06-20 22:14:37.1203 Trace FindReachableObject<NLog.Internal.IRenderable>:
+2021-06-20 22:14:37.1203 Trace Scanning SimpleLayout ''home/ainea/Documents/work/dotnet/AccountOwnerServer/AccountOwnerServer/Project/logs/${shortdate}_logfile.txt''
+2021-06-20 22:14:37.1203 Trace  Scanning Property Renderers 'System.Collections.ObjectModel.ReadOnlyCollection`1[NLog.LayoutRenderers.LayoutRenderer]' System.Collections.ObjectModel
+2021-06-20 22:14:37.1203 Trace  Scanning LiteralLayoutRenderer 'Layout Renderer: ${literal}'
+2021-06-20 22:14:37.1203 Trace  Scanning ShortDateLayoutRenderer 'Layout Renderer: ${shortdate}'
+2021-06-20 22:14:37.1242 Trace  Scanning LiteralLayoutRenderer 'Layout Renderer: ${literal}'
+2021-06-20 22:14:37.1242 Trace Initializing File Target[logfile]
+2021-06-20 22:14:37.1242 Trace FindReachableObject<NLog.Layouts.Layout>:
+2021-06-20 22:14:37.1242 Trace Scanning FileTarget 'File Target[logfile]'
+2021-06-20 22:14:37.1242 Trace  Scanning Property FileName ''home/ainea/Documents/work/dotnet/AccountOwnerServer/AccountOwnerServer/Project/logs/${shortdate}_logfile.txt'' NLog.Layouts
+2021-06-20 22:14:37.1242 Trace  Scanning SimpleLayout ''home/ainea/Documents/work/dotnet/AccountOwnerServer/AccountOwnerServer/Project/logs/${shortdate}_logfile.txt''
+2021-06-20 22:14:37.1242 Trace  Scanning Property Layout ''${longdate} ${level:uppercase=true} ${message}'' NLog.Layouts
+2021-06-20 22:14:37.1242 Trace  Scanning SimpleLayout ''${longdate} ${level:uppercase=true} ${message}''
+2021-06-20 22:14:37.1242 Trace  Scanning Property LineEnding 'Default' NLog.Targets
+2021-06-20 22:14:37.1242 Trace File Target[logfile] has 2 layouts
+2021-06-20 22:14:37.1242 Trace FileTarget(Name=logfile): Using appenderFactory: NLog.Internal.FileAppenders.RetryingMultiProcessFileAppender+Factory

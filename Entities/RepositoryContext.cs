@@ -1,5 +1,4 @@
-﻿using System;
-using Entities.Models;
+﻿using Entities.Models;
 using Microsoft.EntityFrameworkCore;
 
 namespace Entities
@@ -12,6 +11,6 @@ namespace Entities
         }
         
         public DbSet<Owner> Owners { get; set; }
-        public DbSet<Account> Account { get; set; }
+        public DbSet<Account> Accounts { get; set; }
     }
 }

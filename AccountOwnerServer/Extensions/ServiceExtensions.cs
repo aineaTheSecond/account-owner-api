@@ -35,7 +35,7 @@ namespace AccountOwnerServer.Extensions
             services.AddSingleton<ILoggerManager, LoggerManager>();
         }
 
-        public static void ConfigurePostgresqlClient(this IServiceCollection services, IConfiguration config)
+        public static void ConfigurePostgresqlContext(this IServiceCollection services, IConfiguration config)
         {
             var connectionString = config["postgresqlConnection:connectionString"];
             services.AddDbContext<RepositoryContext>(opt => opt.UseNpgsql(connectionString));

@@ -23,7 +23,7 @@ namespace AccountOwnerServer.Controllers
             _repository = repository;
             _mapper = mapper;
         }
-
+        
         [HttpGet]
         public IActionResult GetAllOwners()
         {
@@ -41,8 +41,9 @@ namespace AccountOwnerServer.Controllers
                 return StatusCode(500, "internal server error");
             }
         }
+        
 
-        [HttpGet("{id}")]
+        [HttpGet("{id}", Name = "OwnerById")]
         public IActionResult GetOwnerById(Guid id)
         {
             try
@@ -90,8 +91,40 @@ namespace AccountOwnerServer.Controllers
             }
             catch (Exception e)
             {
-               _logger.LogError($"Something went wrong inside GetOwnerWithDetails action: {e.Message}");
-               return StatusCode(500, "Internal server error");
+                _logger.LogError($"Something went wrong inside GetOwnerWithDetails action: {e.Message}");
+                return StatusCode(500, "Internal server error");
+            }
+        }
+
+
+        [HttpPost]
+        public IActionResult CreateOwner([FromBody] OwnerForCreationDto owner)
+        {
+            try
+            {
+                if (owner == null)
+                {
+                    _logger.LogError("Owner object sent from the client is null");
+                    return BadRequest("Owner object is null");
+                }
+
+                if (!ModelState.IsValid)
+                {
+                    _logger.LogError("Invalid owner object sent from the client");
+                    return BadRequest("Invalid model object");
+                }
+
+                var ownerEntity = _mapper.Map<Owner>(owner);
+                _repository.Owner.CreateOwner(ownerEntity);
+                _repository.Save();
+
+                var createdOwner = _mapper.Map<OwnerDto>(ownerEntity);
+                return CreatedAtRoute("OwnerById", new {id = createdOwner.Id}, createdOwner);
+            }
+            catch (Exception e)
+            {
+                _logger.LogError($"Something went wrong inside CreateOwner action: {e.Message}");
+                return StatusCode(500, "Internal server error");
             }
         }
     }

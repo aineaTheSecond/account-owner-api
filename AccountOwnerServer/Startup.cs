@@ -25,7 +25,7 @@ namespace AccountOwnerServer
             services.ConfigureCors();
             services.ConfigureIISIntegration();
             services.ConfigureLoggerService();
-            services.ConfigurePostgresqlClient(Configuration);
+            services.ConfigurePostgresqlContext(Configuration);
             services.ConfigureRepositoryWrapper();
             services.AddAutoMapper(typeof(Startup));
 

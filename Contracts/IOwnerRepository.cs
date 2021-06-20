@@ -10,5 +10,7 @@ namespace Contracts
         Owner GetOwnerById(Guid ownerId);
 
         Owner GetOwnerWithDetails(Guid ownerId);
+
+        void CreateOwner(Owner owner);
     }
 }
